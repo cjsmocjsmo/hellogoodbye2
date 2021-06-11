@@ -1,32 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
+// import 'package:http/http.dart' as http;
+// import 'dart:convert';
 
 class HelloGoodbyeView extends StatelessWidget{
-
-  // final String apiUrl = "http://192.168.0.42:8888/intAction";
-
-  // Future<List<dynamic>> fetchMovies() async {
-
-  //   var result = await http.get(Uri.parse(apiUrl));
-  //   return json.decode(result.body);
-
-  // }
-
-  // String _thumb(dynamic mov){
-  //   return mov['httpthumbpath'];
-  // }
-
-  // String _movfspath(dynamic mov){
-  //   return mov['movfspath'];
-  // }
-  
-  // Future<void> playMov(playURL) async {
-
-  //   var resultPlay = await http.get(Uri.parse(playURL));
-  //   return json.decode(resultPlay.body);
-
-  // }
 
   @override
   Widget build(BuildContext context) {
@@ -34,15 +10,59 @@ class HelloGoodbyeView extends StatelessWidget{
       appBar: AppBar(
         // backgroundColor: Colors.lightGreen[900],
         title: Text(
-          "Action",
+          "Goodbye Dad",
           style: TextStyle(color: Colors.white),
         ),
       ),
       body: Container(
         decoration: BoxDecoration(
-          color: Colors.purple.shade400,
+          color: Colors.purple.shade200,
         ),
-        child: Text("Fuck")
+        child: GridView.count(
+          primary: false,
+          padding: const EdgeInsets.all(20),
+          crossAxisSpacing: 10,
+          mainAxisSpacing: 10,
+          crossAxisCount: 3,
+          children: <Widget>[
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d1.jpg')
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d2.jpg')
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d4.jpg')
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d5.jpg')
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d6.jpg')
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d7.jpg')
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d8.jpg')
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d9.jpg')
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Image.asset('images/d10.jpg')
+            ),
+          ]
+      ),
       ),
     );
   }

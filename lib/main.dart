@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'hellogoodbyeview.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(HelloGoodbye());
 }
 
 class HelloGoodbye extends StatelessWidget {
@@ -9,7 +10,7 @@ class HelloGoodbye extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Goodbye',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -22,7 +23,7 @@ class HelloGoodbye extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.purple,
       ),
-      home: HelloGoodbyeView(title: 'Flutter Demo Home Page'),
+      home: HelloGoodbyeView(),
     );
   }
 }
