@@ -121,13 +121,13 @@ class HelloGoodbyeView extends StatelessWidget{
                           }
                         ),
                       );
-                    }
+                    },
                     child: Image.asset('images/d10.jpg'),
                   )
                 ),
               ],
-            );
-          ),
+            )
+          );
     );
   }
 }
