@@ -128,7 +128,7 @@ class HelloGoodbyeView extends StatelessWidget{
               ],
             ),
           ),
-        ),
+        
     );
   }
 }
