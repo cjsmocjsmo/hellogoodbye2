@@ -113,10 +113,8 @@ class HelloGoodbyeView extends StatelessWidget{
                                 color: Colors.purple.shade400,
                               ),
                               child: Center(
+                                width: 600.0,
                                 child: Image.asset('images/d9.jpg'),
-                                  fit: BoxFit.contain,
-                                    // height: 400.0,
-                                    width: 600.0,
                                 ),
                               ),
                             );
