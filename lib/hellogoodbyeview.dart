@@ -10,7 +10,7 @@ class HelloGoodbyeView extends StatelessWidget{
       appBar: AppBar(
         // backgroundColor: Colors.lightGreen[900],
         title: Text(
-          "Goodbye Dad",
+          "Goodbye",
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -27,39 +27,108 @@ class HelloGoodbyeView extends StatelessWidget{
           children: <Widget>[
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d1.jpg')
+              child: GestureDetector(
+                onTap: () {
+
+                },
+                child: Image.asset('images/d1.jpg')
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d2.jpg')
+              child: GestureDetector(
+                onTap: () {
+
+                },
+                child: Image.asset('images/d2.jpg')
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d4.jpg')
+              child: GestureDetector(
+                onTap: () {
+
+                },
+                child: Image.asset('images/d4.jpg')
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d5.jpg')
+              child: GestureDetector(
+                onTap: () {
+
+                },
+                child: Image.asset('images/d5.jpg')
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d6.jpg')
+              child: GestureDetector(
+                onTap: () {
+
+                },
+                child: Image.asset('images/d6.jpg')
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d7.jpg')
+              child: GestureDetector(
+                onTap: () {
+
+                },
+                child: Image.asset('images/d7.jpg')
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d8.jpg')
+              child: GestureDetector(
+                onTap: () {
+
+                },
+                child: Image.asset('images/d8.jpg')
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d9.jpg')
+              child: GestureDetector(
+                onTap: () {
+
+                },
+                child: Image.asset('images/d9.jpg')
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
-              child: Image.asset('images/d10.jpg')
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.purple.shade400,
+                              ),
+                              child: Center(
+                                child: Image.asset('images/d9.jpg'),
+                                  fit: BoxFit.contain,
+                                    // height: 400.0,
+                                    width: 600.0,
+                                ),
+                              ),
+                            );
+                          }
+                        ),
+                        );
+                        }
+                      )
+                    );
+                },
+                child: Image.asset('images/d10.jpg')
+              ),
             ),
           ]
       ),
