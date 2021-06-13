@@ -108,26 +108,28 @@ class HelloGoodbyeView extends StatelessWidget{
                               title: Text("Dad View"),
                               backgroundColor: Colors.purple.shade700,
                             ),
-                            body: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.purple.shade400,
-                              ),
-                              width: 600.0,
-                              child: Center(
-                                child: Image.asset('images/d10.jpg'),
+                            body: Center(
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
                                 ),
-                              ),
-                            );
-                          }
-                        ),
-                      );
-                    },
-                    child: Image.asset('images/d10.jpg'),
-                  )
-                ),
-              ],
-            ),
+                                width: 600.0,
+                                child: Center(
+                                  child: Image.asset('images/d10.jpg'),
+                                ),
+                              )
+                            ),
+                          );
+                        }
+                      ),
+                    );
+                  },
+                  child: Image.asset('images/d10.jpg'),
+                )
+              ),
+            ],
           ),
+        ),
         
     );
   }
