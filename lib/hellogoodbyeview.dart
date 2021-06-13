@@ -112,9 +112,9 @@ class HelloGoodbyeView extends StatelessWidget{
                               decoration: BoxDecoration(
                                 color: Colors.purple.shade400,
                               ),
+                              width: 600.0,
                               child: Center(
-                                width: 600.0,
-                                child: Image.asset('images/d9.jpg'),
+                                child: Image.asset('images/d10.jpg'),
                                 ),
                               ),
                             );
