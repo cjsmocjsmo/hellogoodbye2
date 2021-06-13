@@ -29,7 +29,29 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    width: 600.0,
+                                    child: Image.asset('images/d1.jpg'),
+                                  ),
+                                ),
+                              )
+                            
+                          );
+                        }
+                      ),
+                    );
                 },
                 child: Image.asset('images/d1.jpg')
               ),
@@ -38,7 +60,29 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    width: 600.0,
+                                    child: Image.asset('images/d2.jpg'),
+                                  ),
+                                ),
+                              )
+                            
+                          );
+                        }
+                      ),
+                    );
                 },
                 child: Image.asset('images/d2.jpg')
               ),
@@ -47,7 +91,29 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    width: 600.0,
+                                    child: Image.asset('images/d4.jpg'),
+                                  ),
+                                ),
+                              )
+                            
+                          );
+                        }
+                      ),
+                    );
                 },
                 child: Image.asset('images/d4.jpg')
               ),
@@ -56,7 +122,29 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    width: 600.0,
+                                    child: Image.asset('images/d5.jpg'),
+                                  ),
+                                ),
+                              )
+                            
+                          );
+                        }
+                      ),
+                    );
                 },
                 child: Image.asset('images/d5.jpg')
               ),
@@ -65,7 +153,29 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    width: 600.0,
+                                    child: Image.asset('images/d6.jpg'),
+                                  ),
+                                ),
+                              )
+                            
+                          );
+                        }
+                      ),
+                    );
                 },
                 child: Image.asset('images/d6.jpg')
               ),
@@ -74,7 +184,29 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    width: 600.0,
+                                    child: Image.asset('images/d7.jpg'),
+                                  ),
+                                ),
+                              )
+                            
+                          );
+                        }
+                      ),
+                    );
                 },
                 child: Image.asset('images/d7.jpg')
               ),
@@ -83,7 +215,29 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    width: 600.0,
+                                    child: Image.asset('images/d8.jpg'),
+                                  ),
+                                ),
+                              )
+                            
+                          );
+                        }
+                      ),
+                    );
                 },
                 child: Image.asset('images/d8.jpg')
               ),
@@ -92,7 +246,29 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-
+                  Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (BuildContext context) {
+                          return Scaffold(
+                            appBar: AppBar(
+                              title: Text("Dad View"),
+                              backgroundColor: Colors.purple.shade700,
+                            ),
+                            body: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.purple.shade400,
+                                ),
+                                child: Center(
+                                  child: Container(
+                                    width: 600.0,
+                                    child: Image.asset('images/d9.jpg'),
+                                  ),
+                                ),
+                              )
+                            
+                          );
+                        }
+                      ),
+                    );
                 },
                 child: Image.asset('images/d9.jpg')
               ),
