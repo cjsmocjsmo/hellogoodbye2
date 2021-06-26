@@ -29,279 +29,81 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d1.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                  _zoomPage('images/d1.jpg', context);
                 },
-                child: Image.asset('images/d1.jpg')
+                child: Image.asset('images/d1thumb.jpg')
               ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d2.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                  _zoomPage('images/d2.jpg', context);
                 },
-                child: Image.asset('images/d2.jpg')
+                child: Image.asset('images/d2thumb.jpg')
               ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d4.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                  _zoomPage('images/d4.jpg', context);
                 },
-                child: Image.asset('images/d4.jpg')
+                child: Image.asset('images/d4thumb.jpg')
               ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d5.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                  _zoomPage('images/d5.jpg', context);
                 },
-                child: Image.asset('images/d5.jpg')
+                child: Image.asset('images/d5thumb.jpg')
               ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d6.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                  _zoomPage('images/d6.jpg', context);
                 },
-                child: Image.asset('images/d6.jpg')
+                child: Image.asset('images/d6thumb.jpg')
               ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d7.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                  _zoomPage('images/d7.jpg', context);
                 },
-                child: Image.asset('images/d7.jpg')
+                child: Image.asset('images/d7thumb.jpg')
               ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d8.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                  _zoomPage('images/d8.jpg', context);
                 },
-                child: Image.asset('images/d8.jpg')
+                child: Image.asset('images/d8thumb.jpg')
               ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d9.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                  _zoomPage('images/d9.jpg', context);
                 },
-                child: Image.asset('images/d9.jpg')
+                child: Image.asset('images/d9thumb.jpg')
               ),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (BuildContext context) {
-                          return Scaffold(
-                            appBar: AppBar(
-                              title: Text("Dad View"),
-                              backgroundColor: Colors.purple.shade700,
-                            ),
-                            body: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.purple.shade400,
-                                ),
-                                child: Center(
-                                  child: Container(
-                                    width: 600.0,
-                                    child: Image.asset('images/d10.jpg'),
-                                  ),
-                                ),
-                              )
-                            
-                          );
-                        }
-                      ),
-                    );
+                    _zoomPage('images/d10.jpg', context);
                   },
-                  child: Image.asset('images/d10.jpg'),
+                  child: Image.asset('images/d10thumb.jpg'),
                 )
               ),
             ],
@@ -310,4 +112,30 @@ class HelloGoodbyeView extends StatelessWidget{
         
     );
   }
+}
+
+
+Future<void> _zoomPage(String apath, BuildContext context) {
+  return Navigator.push(context, MaterialPageRoute<void>(
+      builder: (BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(
+          title: Text("Dad View"),
+          backgroundColor: Colors.purple.shade700,
+        ),
+        body: Container(
+            decoration: BoxDecoration(
+              color: Colors.purple.shade400,
+            ),
+            child: Center(
+              child: Container(
+                width: 600.0,
+                child: Image.asset(apath),
+              ),
+            ),
+          )
+        );
+      }
+    ),
+  );
 }
