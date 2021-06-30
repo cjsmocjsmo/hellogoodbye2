@@ -10,7 +10,7 @@ class HelloGoodbye extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Goodbye',
+      title: 'Family',
       theme: ThemeData(
         // This is the theme of your application.
         //

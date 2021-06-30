@@ -10,7 +10,7 @@ class HelloGoodbyeView extends StatelessWidget{
       appBar: AppBar(
         // backgroundColor: Colors.lightGreen[900],
         title: Text(
-          "Goodbye",
+          "Family",
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -101,9 +101,27 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                    _zoomPage('images/d10.jpg', context);
+                  _zoomPage('images/d10.jpg', context);
+                },
+                child: Image.asset('images/d10thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic1-1.jpg', context);
+                },
+                child: Image.asset('images/pic1-1thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                    _zoomPage('images/pic2-1.jpg', context);
                   },
-                  child: Image.asset('images/d10thumb.jpg'),
+                  child: Image.asset('images/pic2-1thumb.jpg'),
                 )
               ),
             ],
@@ -120,7 +138,7 @@ Future<void> _zoomPage(String apath, BuildContext context) {
       builder: (BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          title: Text("Dad View"),
+          title: Text("Family Up Close"),
           backgroundColor: Colors.purple.shade700,
         ),
         body: Container(
