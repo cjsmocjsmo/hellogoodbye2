@@ -173,15 +173,6 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/pic9.jpg', context);
-                },
-                child: Image.asset('images/pic9thumb.jpg'),
-              )
-            ),
-            Container(
-              padding: const EdgeInsets.all(8),
-              child: GestureDetector(
-                onTap: () {
                   _zoomPage('images/pic10.jpg', context);
                 },
                 child: Image.asset('images/pic10thumb.jpg'),
@@ -194,6 +185,15 @@ class HelloGoodbyeView extends StatelessWidget{
                   _zoomPage('images/pic12.jpg', context);
                 },
                 child: Image.asset('images/pic12thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic9.jpg', context);
+                },
+                child: Image.asset('images/pic9thumb.jpg'),
               )
             ),
             ],
