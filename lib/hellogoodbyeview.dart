@@ -238,7 +238,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/p5.jpg', context);
                 },
-                child: Image.asset('images/p4thumb.jpg'),
+                child: Image.asset('images/p5thumb.jpg'),
               )
             ),
             ],
