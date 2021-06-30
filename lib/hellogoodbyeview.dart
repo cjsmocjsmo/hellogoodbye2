@@ -119,11 +119,83 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                    _zoomPage('images/pic2-1.jpg', context);
-                  },
-                  child: Image.asset('images/pic2-1thumb.jpg'),
-                )
-              ),
+                  _zoomPage('images/pic2-1.jpg', context);
+                },
+                child: Image.asset('images/pic2-1thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic3-1.jpg', context);
+                },
+                child: Image.asset('images/pic3-1thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic4.jpg', context);
+                },
+                child: Image.asset('images/pic4thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic5.jpg', context);
+                },
+                child: Image.asset('images/pic5thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic7.jpg', context);
+                },
+                child: Image.asset('images/pic7thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic8.jpg', context);
+                },
+                child: Image.asset('images/pic8thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic9.jpg', context);
+                },
+                child: Image.asset('images/pic9thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic10.jpg', context);
+                },
+                child: Image.asset('images/pic10thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/pic12.jpg', context);
+                },
+                child: Image.asset('images/pic12thumb.jpg'),
+              )
+            ),
             ],
           ),
         ),
