@@ -196,6 +196,51 @@ class HelloGoodbyeView extends StatelessWidget{
                 child: Image.asset('images/pic9thumb.jpg'),
               )
             ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/p1.jpg', context);
+                },
+                child: Image.asset('images/p1thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/p2.jpg', context);
+                },
+                child: Image.asset('images/p2thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/p3.jpg', context);
+                },
+                child: Image.asset('images/p3thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/p4.jpg', context);
+                },
+                child: Image.asset('images/p4thumb.jpg'),
+              )
+            ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('images/p5.jpg', context);
+                },
+                child: Image.asset('images/p4thumb.jpg'),
+              )
+            ),
             ],
           ),
         ),
