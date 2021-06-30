@@ -85,6 +85,16 @@ flutter:
     - images/pic11.jpg
     - images/pic12.jpg
     - images/pic12thumb.jpg
+    - images/p1.jpg
+    - images/p1thumb.jpg
+    - images/p2.jpg
+    - images/p2thumb.jpg
+    - images/p3.jpg
+    - images/p3thumb.jpg
+    - images/p4.jpg
+    - images/p4thumb.jpg
+    - images/p5.jpg
+    - images/p5thumb.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
