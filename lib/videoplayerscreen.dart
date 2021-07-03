@@ -60,14 +60,13 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   @override
   Widget build(BuildContext context) {
     return 
-    // Scaffold(
+    Scaffold(
     //   appBar: AppBar(
     //     title: Text('Butterfly Video'),
     //   ),
     //   // Use a FutureBuilder to display a loading spinner while waiting for the
     //   // VideoPlayerController to finish initializing.
-    //   body: 
-      FutureBuilder(
+      body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
