@@ -273,9 +273,7 @@ Future<void> _zoomPage2(BuildContext context) {
               color: Colors.purple.shade400,
             ),
             child: Center(
-              child: Container(
-                child: VideoPlayerScreen(),
-              ),
+              child: VideoPlayerScreen(),
             ),
           )
         );
