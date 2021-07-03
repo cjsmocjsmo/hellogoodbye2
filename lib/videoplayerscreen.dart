@@ -83,7 +83,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             return Center(child: CircularProgressIndicator());
           }
         },
-      );
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Wrap the play or pause in a call to `setState`. This ensures the
@@ -102,7 +102,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         child: Icon(
           _controller.value.isPlaying ? Icons.pause : Icons.play_arrow,
         ),
-      
+      ),
     );
   }
 }
