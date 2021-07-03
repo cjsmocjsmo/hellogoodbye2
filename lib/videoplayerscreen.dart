@@ -84,7 +84,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             return Center(child: CircularProgressIndicator());
           }
         },
-      ),
+      );
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Wrap the play or pause in a call to `setState`. This ensures the
