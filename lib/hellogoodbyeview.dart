@@ -272,10 +272,8 @@ Future<void> _zoomPage2(BuildContext context) {
             decoration: BoxDecoration(
               color: Colors.purple.shade400,
             ),
-            child: Center(
-              child: VideoPlayerScreen(),
-            ),
-          )
+            child: VideoPlayerScreen(),
+          ),
         );
       }
     ),
