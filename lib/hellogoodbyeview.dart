@@ -274,7 +274,6 @@ Future<void> _zoomPage2(BuildContext context) {
             ),
             child: Center(
               child: Container(
-                width: 600.0,
                 child: VideoPlayerScreen(),
               ),
             ),
