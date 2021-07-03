@@ -241,6 +241,15 @@ class HelloGoodbyeView extends StatelessWidget{
                 child: Image.asset('images/p5thumb.jpg'),
               )
             ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  // _zoomPage('images/p5.jpg', context);
+                },
+                child: Image.asset('images/tobe.mp4'),
+              )
+            ),
             ],
           ),
         ),
