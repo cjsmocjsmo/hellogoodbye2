@@ -246,7 +246,7 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  VideoPlayerScreen()
+                  VideoPlayerScreen();
                   // _zoomPage('images/p5.jpg', context);
                 },
                 child: Image.asset('images/d1thumb.jpg'),
