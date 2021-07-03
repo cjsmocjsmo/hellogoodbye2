@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:http/http.dart' as http;
 // import 'dart:convert';
+import 'videoplayerscreen.dart';
 
 class HelloGoodbyeView extends StatelessWidget{
 
@@ -245,6 +246,7 @@ class HelloGoodbyeView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
+                  VideoPlayerScreen()
                   // _zoomPage('images/p5.jpg', context);
                 },
                 child: Image.asset('images/d1thumb.jpg'),
