@@ -35,7 +35,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     //   'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
     // );
     _controller = VideoPlayerController.asset(
-      'images/tob.mp4',
+      'images/zero_ashes.mp4',
       // 'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
     );
     // 

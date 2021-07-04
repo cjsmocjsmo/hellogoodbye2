@@ -251,6 +251,15 @@ class HelloGoodbyeView extends StatelessWidget{
                 child: Image.asset('images/d1thumb.jpg'),
               )
             ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage3(context);
+                },
+                child: Image.asset('images/d2thumb.jpg'),
+              )
+            ),
             ],
           ),
         ),
@@ -258,6 +267,29 @@ class HelloGoodbyeView extends StatelessWidget{
     );
   }
 }
+
+
+
+// Future<void> _zoomPage3(BuildContext context) {
+//   return Navigator.push(context, MaterialPageRoute<void>(
+//       builder: (BuildContext context) {
+//       return Scaffold(
+//         appBar: AppBar(
+//           title: Text("Family Up Close"),
+//           backgroundColor: Colors.purple.shade700,
+//         ),
+//         body: Container(
+//             decoration: BoxDecoration(
+//               color: Colors.purple.shade400,
+//             ),
+//             child: VideoPlayerScreen(),
+//           ),
+//         );
+//       }
+//     ),
+//   );
+// }
+
 
 
 Future<void> _zoomPage2(BuildContext context) {
