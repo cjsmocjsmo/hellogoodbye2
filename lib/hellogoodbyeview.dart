@@ -40,7 +40,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d1thumb.jpg')
+                child: Image.asset('images/d1thumb.jpg')
               ),
             ),
             Container(
@@ -56,7 +56,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d2thumb.jpg')
+                child: Image.asset('images/d2thumb.jpg')
               ),
             ),
             Container(
@@ -72,7 +72,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d4thumb.jpg')
+                child: Image.asset('images/d4thumb.jpg')
               ),
             ),
             Container(
@@ -88,7 +88,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d5thumb.jpg')
+                child: Image.asset('images/d5thumb.jpg')
               ),
             ),
             Container(
@@ -104,7 +104,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d6thumb.jpg')
+                child: Image.asset('images/d6thumb.jpg')
               ),
             ),
             Container(
@@ -120,7 +120,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d7thumb.jpg')
+                child: Image.asset('images/d7thumb.jpg')
               ),
             ),
             Container(
@@ -136,7 +136,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d8thumb.jpg')
+                child: Image.asset('images/d8thumb.jpg')
               ),
             ),
             Container(
@@ -152,7 +152,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d9thumb.jpg')
+                child: Image.asset('images/d9thumb.jpg')
               ),
             ),
             Container(
@@ -168,7 +168,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/d10thumb.jpg'),
+                child: Image.asset('images/d10thumb.jpg'),
               )
             ),
             Container(
@@ -184,7 +184,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic1-1thumb.jpg'),
+                child: Image.asset('images/pic1-1thumb.jpg'),
               )
             ),
             Container(
@@ -200,7 +200,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic2-1thumb.jpg'),
+                child: Image.asset('images/pic2-1thumb.jpg'),
               )
             ),
             Container(
@@ -216,7 +216,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic3-1thumb.jpg'),
+                child: Image.asset('images/pic3-1thumb.jpg'),
               )
             ),
             Container(
@@ -232,7 +232,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic4thumb.jpg'),
+                child: Image.asset('images/pic4thumb.jpg'),
               )
             ),
             Container(
@@ -248,7 +248,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic5thumb.jpg'),
+                child: Image.asset('images/pic5thumb.jpg'),
               )
             ),
             Container(
@@ -264,7 +264,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic7thumb.jpg'),
+                child: Image.asset('images/pic7thumb.jpg'),
               )
             ),
             Container(
@@ -280,7 +280,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic8thumb.jpg'),
+                child: Image.asset('images/pic8thumb.jpg'),
               )
             ),
             Container(
@@ -296,7 +296,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic10thumb.jpg'),
+                child: Image.asset('images/pic10thumb.jpg'),
               )
             ),
             Container(
@@ -312,7 +312,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic12thumb.jpg'),
+                child: Image.asset('images/pic12thumb.jpg'),
               )
             ),
             Container(
@@ -328,7 +328,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/pic9thumb.jpg'),
+                child: Image.asset('images/pic9thumb.jpg'),
               )
             ),
             Container(
@@ -344,7 +344,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/p1thumb.jpg'),
+                child: Image.asset('images/p1thumb.jpg'),
               )
             ),
             Container(
@@ -360,7 +360,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/p2thumb.jpg'),
+                child: Image.asset('images/p2thumb.jpg'),
               )
             ),
             Container(
@@ -376,7 +376,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/p3thumb.jpg'),
+                child: Image.asset('images/p3thumb.jpg'),
               )
             ),
             Container(
@@ -392,7 +392,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/p4thumb.jpg'),
+                child: Image.asset('images/p4thumb.jpg'),
               )
             ),
             Container(
@@ -424,7 +424,7 @@ class HelloGoodbyeView extends StatelessWidget{
             //         height: 400.0,
             //         width: 200.0,
             //     ),
-            //     // Image.asset('images/d1thumb.jpg'),
+            //     // child: Image.asset('images/d1thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -433,7 +433,7 @@ class HelloGoodbyeView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage3(context);
             //     },
-            //     child: Image.asset('images/d2thumb.jpg'),
+            //     child: child: Image.asset('images/d2thumb.jpg'),
             //   )
             // ),
             ],
@@ -503,7 +503,7 @@ Future<void> _zoomPage(String apath, BuildContext context) {
             child: Center(
               child: Container(
                 width: 600.0,
-                child: Image.asset(apath),
+                child: child: Image.asset(apath),
               ),
             ),
           )
