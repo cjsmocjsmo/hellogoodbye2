@@ -503,7 +503,7 @@ Future<void> _zoomPage(String apath, BuildContext context) {
             child: Center(
               child: Container(
                 width: 600.0,
-                child: child: Image.asset(apath),
+                child: Image.asset(apath),
               ),
             ),
           )
