@@ -408,7 +408,7 @@ class HelloGoodbyeView extends StatelessWidget{
                 //     height: 400.0,
                 //     width: 200.0,
                 // ),
-                Image.asset('images/p5thumb.jpg'),
+                child: Image.asset('images/p5thumb.jpg'),
               )
             ),
             // Container(
