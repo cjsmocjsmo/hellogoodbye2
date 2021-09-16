@@ -33,14 +33,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d1.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d1thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d1thumb.jpg')
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d1thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d1thumb.jpg')
               ),
             ),
             Container(
@@ -49,14 +49,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d2.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d2thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d2thumb.jpg')
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d2thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d2thumb.jpg')
               ),
             ),
             Container(
@@ -65,14 +65,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d4.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d4thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d4thumb.jpg')
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d4thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d4thumb.jpg')
               ),
             ),
             Container(
@@ -81,14 +81,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d5.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d5thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d5thumb.jpg')
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d5thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d5thumb.jpg')
               ),
             ),
             Container(
@@ -97,14 +97,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d6.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d6thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d6thumb.jpg')
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d6thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d6thumb.jpg')
               ),
             ),
             Container(
@@ -113,14 +113,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d7.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d7thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d7thumb.jpg')
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d7thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d7thumb.jpg')
               ),
             ),
             Container(
@@ -129,14 +129,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d8.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d8thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d8thumb.jpg')
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d8thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d8thumb.jpg')
               ),
             ),
             Container(
@@ -145,14 +145,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d9.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d9thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d9thumb.jpg')
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d9thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d9thumb.jpg')
               ),
             ),
             Container(
@@ -161,14 +161,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d10.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/d10thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/d10thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/d10thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/d10thumb.jpg'),
               )
             ),
             Container(
@@ -177,14 +177,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic1-1.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic1-1thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic1-1thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic1-1thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic1-1thumb.jpg'),
               )
             ),
             Container(
@@ -193,14 +193,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic2-1.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic2-1thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic2-1thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic2-1thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic2-1thumb.jpg'),
               )
             ),
             Container(
@@ -209,14 +209,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic3-1.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic3-1thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic3-1thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic3-1thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic3-1thumb.jpg'),
               )
             ),
             Container(
@@ -225,14 +225,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic4.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic4thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic4thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic4thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic4thumb.jpg'),
               )
             ),
             Container(
@@ -241,14 +241,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic5.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic5thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic5thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic5thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic5thumb.jpg'),
               )
             ),
             Container(
@@ -257,14 +257,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic7.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic7thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic7thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic7thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic7thumb.jpg'),
               )
             ),
             Container(
@@ -273,14 +273,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic8.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic8thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic8thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic8thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic8thumb.jpg'),
               )
             ),
             Container(
@@ -289,14 +289,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic10.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic10thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic10thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic10thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic10thumb.jpg'),
               )
             ),
             Container(
@@ -305,14 +305,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic12.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic12thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic12thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic12thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic12thumb.jpg'),
               )
             ),
             Container(
@@ -321,14 +321,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/pic9.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/pic9thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/pic9thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/pic9thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/pic9thumb.jpg'),
               )
             ),
             Container(
@@ -337,14 +337,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/p1.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/p1thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/p1thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/p1thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/p1thumb.jpg'),
               )
             ),
             Container(
@@ -353,14 +353,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/p2.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/p2thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/p2thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/p2thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/p2thumb.jpg'),
               )
             ),
             Container(
@@ -369,14 +369,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/p3.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/p3thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/p3thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/p3thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/p3thumb.jpg'),
               )
             ),
             Container(
@@ -385,14 +385,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/p4.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/p4thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/p4thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/p4thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/p4thumb.jpg'),
               )
             ),
             Container(
@@ -401,14 +401,14 @@ class HelloGoodbyeView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/p5.jpg', context);
                 },
-                child: FadeInImage.memoryNetwork(
-                  placeholder: kTransparentImage,
-                  image: 'images/p5thumb.jpg',
-                  fit: BoxFit.contain,
-                    height: 400.0,
-                    width: 200.0,
-                ),
-                // Image.asset('images/p5thumb.jpg'),
+                // child: FadeInImage.memoryNetwork(
+                //   placeholder: kTransparentImage,
+                //   image: 'images/p5thumb.jpg',
+                //   fit: BoxFit.contain,
+                //     height: 400.0,
+                //     width: 200.0,
+                // ),
+                Image.asset('images/p5thumb.jpg'),
               )
             ),
             // Container(
