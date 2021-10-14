@@ -37,7 +37,7 @@ class MainScreen extends StatelessWidget {
               CircleAvatar(
                 minRadius: 75.00,
                 maxRadius: 100.00,
-                backgroundImage: NetworkImage("images/d2thumb3.jpg"),
+                backgroundImage: NetworkImage("images/d1thumb50.jpg"),
               )
           
           
