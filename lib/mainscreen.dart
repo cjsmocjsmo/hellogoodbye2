@@ -24,27 +24,16 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(8),
             children: <Widget>[
 
-              // Container(
-              //   width: 100,
-              //   height: 100,
-              //   padding: const EdgeInsets.all(8),
-              //   child: GestureDetector(
-              //     onTap: () {
-              //       // _zoomPage('images/d2.jpg', context);
-              //     },
-              //     child: CircleAvatar(
-              //       minRadius: 75.00,
-              //       maxRadius: 100.00,
-              //       backgroundImage: NetworkImage("images/d1thumb3.jpg"),
-              //     ),
-              //   ),
-              // ),
-          
-              CircleAvatar(
-                minRadius: 75.00,
-                maxRadius: 100.00,
-                backgroundImage: NetworkImage("images/d1thumb3.jpg"),
+              ListTile(
+                leading: CircleAvatar(
+                  minRadius: 75.00,
+                  maxRadius: 100.00,
+                  backgroundImage: NetworkImage("images/d1thumb3.jpg"),
+                ),
+                title: Text("Dad")
               ),
+          
+              
               CircleAvatar(
                 minRadius: 75.00,
                 maxRadius: 100.00,
