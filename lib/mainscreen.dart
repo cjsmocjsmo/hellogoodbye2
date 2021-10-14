@@ -20,8 +20,21 @@ class MainScreen extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.purple[300],
           ),
-          child: HelloGoodbyeView(),
+          child: ListView(
+            padding: const EdgeInsets.all(8),
+            children: <Widget>[
           
+          CircleAvatar(
+            backgroundImage: NetworkImage("images/d1thumb.jpg"),
+          )
+          
+          
+          
+          
+          
+          
+          // HelloGoodbyeView(),
+          ]
         ),
       
     );
