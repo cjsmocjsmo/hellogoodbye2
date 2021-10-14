@@ -46,7 +46,12 @@ class MainScreen extends StatelessWidget {
                 backgroundImage: Container(
                   width: 100,
                   height: 100,
-                  child: NetworkImage("images/d1thumb3.jpg"),
+                  // child: NetworkImage("images/d1thumb3.jpg"),
+                  child: Image.file(
+                    "images/d1thumb3.jpg",
+                    width: 100.00,
+                    height: 100.00
+                  ),
                 ),
               ),
               CircleAvatar(
