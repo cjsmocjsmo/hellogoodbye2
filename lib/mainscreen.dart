@@ -44,9 +44,9 @@ class MainScreen extends StatelessWidget {
                 minRadius: 75.00,
                 maxRadius: 100.00,
                 backgroundImage: Image.file(
-                    file: "images/d1thumb3.jpg",
+                    "images/d1thumb3.jpg",
                     width: 100.00,
-                    height: 100.00
+                    height: 100.00,
                   ),
                 
               ),
