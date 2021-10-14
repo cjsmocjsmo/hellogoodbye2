@@ -25,6 +25,8 @@ class MainScreen extends StatelessWidget {
             children: <Widget>[
           
           CircleAvatar(
+            minRadius: 200.00,
+            maxRadius: 400.00,
             backgroundImage: NetworkImage("images/d1thumb.jpg"),
           )
           
@@ -36,7 +38,7 @@ class MainScreen extends StatelessWidget {
           // HelloGoodbyeView(),
           ]
         ),
-      
+      )
     );
   }
 }
