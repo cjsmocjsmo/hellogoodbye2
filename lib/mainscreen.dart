@@ -30,7 +30,7 @@ class MainScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(8),
                 child: GestureDetector(
                   onTap: () {
-                    _zoomPage('images/d2.jpg', context);
+                    // _zoomPage('images/d2.jpg', context);
                   },
                   child: CircleAvatar(
                     minRadius: 75.00,
