@@ -59,9 +59,9 @@ class MainScreen extends StatelessWidget {
           //   ],
           // ),
         ),
-      )
-  );
-  
+      
+    );
+  }
   // void stop(apath) async{
   //   final stop = await stopMov(apath);
   //   return stop;
