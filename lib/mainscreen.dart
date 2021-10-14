@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'hellogoodbyeview.dart'
+
 // import 'package:http/http.dart' as http;
 // import 'dart:convert';
 // import 'maincolumn.dart';
@@ -36,26 +38,28 @@ class MainScreen extends StatelessWidget {
         appBar: AppBar(
           title: Text("SecCams"),
           backgroundColor: Colors.purple.shade700,
-          bottom: TabBar(
-            tabs: [
-              Tab(icon: Icon(Icons.security)),
-              Tab(icon: Icon(Icons.videocam)),
+          // bottom: TabBar(
+          //   tabs: [
+          //     Tab(icon: Icon(Icons.security)),
+          //     Tab(icon: Icon(Icons.videocam)),
               
-              Tab(icon: Icon(Icons.video_camera_front)),
-            ],
-          ),
+          //     Tab(icon: Icon(Icons.video_camera_front)),
+          //   ],
+          // ),
         ),
         body: Container(
           decoration: BoxDecoration(
             color: Colors.purple[300],
           ),
-          child: TabBarView(
-            children: [
-              // mainColumn,
-              // Pc1View(),
-              // Pc2View(),
-            ],
-          ),
+          child: HelloGoodbyeView(),
+          
+          // TabBarView(
+          //   children: [
+          //     // mainColumn,
+          //     // Pc1View(),
+          //     // Pc2View(),
+          //   ],
+          // ),
         ),
       )
     );
