@@ -50,8 +50,10 @@ flutter:
   assets:
     - images/d1.jpg
     - images/d1thumb.jpg
+    - images/d1thumb3.jpg
     - images/d2.jpg
     - images/d2thumb.jpg
+    - images/d2thumb3.jpg
     - images/d4.jpg
     - images/d4thumb.jpg
     - images/d5.jpg
