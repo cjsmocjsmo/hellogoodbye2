@@ -9,41 +9,12 @@ import 'hellogoodbyeview.dart';
 
 class MainScreen extends StatelessWidget {
 
-  // Future<void> stopMov(stopURL) async {
-    
-  //   var resultStop = await http.get(Uri.parse(stopURL));
-  //   return json.decode(resultStop.body);
-
-  // }
-
-  // Future<void> nextMov(nextURL) async {
-    
-  //   var resultNext = await http.get(Uri.parse(nextURL));
-  //   return json.decode(resultNext.body);
-
-  // }
-
-  // Future<void> previousMov(previousURL) async {
-    
-  //   var resultPrevious = await http.get(Uri.parse(previousURL));
-  //   return json.decode(resultPrevious.body);
-
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
           title: Text("Family One"),
           backgroundColor: Colors.purple.shade700,
-          // bottom: TabBar(
-          //   tabs: [
-          //     Tab(icon: Icon(Icons.security)),
-          //     Tab(icon: Icon(Icons.videocam)),
-              
-          //     Tab(icon: Icon(Icons.video_camera_front)),
-          //   ],
-          // ),
         ),
         body: Container(
           decoration: BoxDecoration(
@@ -51,19 +22,8 @@ class MainScreen extends StatelessWidget {
           ),
           child: HelloGoodbyeView(),
           
-          // TabBarView(
-          //   children: [
-          //     // mainColumn,
-          //     // Pc1View(),
-          //     // Pc2View(),
-          //   ],
-          // ),
         ),
       
     );
   }
-  // void stop(apath) async{
-  //   final stop = await stopMov(apath);
-  //   return stop;
-  // }
 }

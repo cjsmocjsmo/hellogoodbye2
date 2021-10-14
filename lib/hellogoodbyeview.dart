@@ -10,10 +10,8 @@ class HelloGoodbyeView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Family",
-          style: TextStyle(color: Colors.white),
-        ),
+        title: Text("Family One"),
+        backgroundColor: Colors.purple.shade700,
       ),
       body: Container(
         decoration: BoxDecoration(
