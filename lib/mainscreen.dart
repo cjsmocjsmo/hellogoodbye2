@@ -32,11 +32,9 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
+    return Scaffold(
         appBar: AppBar(
-          title: Text("SecCams"),
+          title: Text("Family One"),
           backgroundColor: Colors.purple.shade700,
           // bottom: TabBar(
           //   tabs: [
@@ -62,8 +60,8 @@ class MainScreen extends StatelessWidget {
           // ),
         ),
       )
-    );
-  }
+  );
+  
   // void stop(apath) async{
   //   final stop = await stopMov(apath);
   //   return stop;
