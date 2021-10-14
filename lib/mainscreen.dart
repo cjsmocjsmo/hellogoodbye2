@@ -24,11 +24,16 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(8),
             children: <Widget>[
           
-          CircleAvatar(
-            minRadius: 75.00,
-            maxRadius: 100.00,
-            backgroundImage: NetworkImage("images/d1thumb.jpg"),
-          )
+              CircleAvatar(
+                minRadius: 75.00,
+                maxRadius: 100.00,
+                backgroundImage: NetworkImage("images/d1thumb3.jpg"),
+              ),
+              CircleAvatar(
+                minRadius: 75.00,
+                maxRadius: 100.00,
+                backgroundImage: NetworkImage("images/d2thumb3.jpg"),
+              )
           
           
           
