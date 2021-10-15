@@ -14,7 +14,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Family One"),
+          title: Text("Family"),
           backgroundColor: Colors.purple.shade700,
         ),
         body: Container(
@@ -25,7 +25,7 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(8),
             children: <Widget>[
 
-
+              Text("Gone But Not Forgotten")
 
               Container(
                 height: 200.0,

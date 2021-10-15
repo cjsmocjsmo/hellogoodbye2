@@ -10,7 +10,7 @@ class CDadView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Family One"),
+        title: Text("Charlie's Dad"),
         backgroundColor: Colors.purple.shade700,
       ),
       body: Container(

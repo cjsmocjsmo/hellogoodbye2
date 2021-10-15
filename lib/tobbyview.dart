@@ -10,7 +10,7 @@ class TobbyView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Family One"),
+        title: Text("Tobby"),
         backgroundColor: Colors.purple.shade700,
       ),
       body: Container(
