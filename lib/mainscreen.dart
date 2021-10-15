@@ -31,6 +31,7 @@ class MainScreen extends StatelessWidget {
                 width: 200.0,
                 child: GestureDetector(
                   onTap: () {
+                    HelloGoodbyeView();
                     // _zoomPage('images/d1.jpg', context);
                   },
                   child: Image.asset("images/d1CThumb.png")
