@@ -35,18 +35,23 @@ class MainScreen extends StatelessWidget {
                       context,
                       MaterialPageRoute(builder: (context) => HelloGoodbyeView()),
                     );
-
-
-
-
-
-                    // Navigator.push(context, HelloGoodbyeView);
-                    // _zoomPage('images/d1.jpg', context);
                   },
                   child: Image.asset("images/d1CThumb.png")
                 ),
               ),
-          
+              Container(
+                height: 200.0,
+                width: 200.0,
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HelloGoodbyeView()),
+                    );
+                  },
+                  child: Image.asset("images/p4CThumb.png")
+                ),
+              ),
           
           ]
         ),
