@@ -11,6 +11,7 @@ class SecCam extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(title: _title, initialRoute: '/', routes: {
       '/': (context) => MainScreen(),
+      '/CDad': (context) => HelloGoodbyeView(),
     });
   }
 }
