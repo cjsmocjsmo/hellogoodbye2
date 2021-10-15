@@ -22,19 +22,19 @@ class MainScreen extends StatelessWidget {
             color: Colors.purple[300],
           ),
           child: ListView(
-            padding: const EdgeInsets.all(12),
+            padding: const EdgeInsets.all(22),
             children: <Widget>[
 
 
-              Center(
-                child: Padding(
-                  padding: const EdgeInsets.all(15),
-                  child: Text(
-                    "Gone But Not Forgotten",
-                    style: TextStyle(fontSize: 30),
-                  ),
-                ),
-              ),
+              // Center(
+              //   child: Padding(
+              //     padding: const EdgeInsets.all(15),
+              //     child: Text(
+              //       "Gone But Not Forgotten",
+              //       style: TextStyle(fontSize: 30),
+              //     ),
+              //   ),
+              // ),
               
 
               Container(
@@ -51,15 +51,15 @@ class MainScreen extends StatelessWidget {
                 ),
               ),
 
-              Center(
-                child: Padding(
-                  padding: const EdgeInsets.all(15),
-                  child: Text(
-                    "New Additions",
-                    style: TextStyle(height: 5, fontSize: 30),
-                  ),
-                ),
-              ),
+              // Center(
+              //   child: Padding(
+              //     padding: const EdgeInsets.all(15),
+              //     child: Text(
+              //       "New Additions",
+              //       style: TextStyle(height: 5, fontSize: 30),
+              //     ),
+              //   ),
+              // ),
 
               Container(
                 height: 200.0,
