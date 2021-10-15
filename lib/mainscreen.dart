@@ -25,7 +25,7 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(8),
             children: <Widget>[
 
-              Text("Gone But Not Forgotten")
+              Text("Gone But Not Forgotten"),
 
               Container(
                 height: 200.0,
