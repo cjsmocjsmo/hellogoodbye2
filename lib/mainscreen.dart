@@ -29,7 +29,10 @@ class MainScreen extends StatelessWidget {
               Center(
                 child: Padding(
                   padding: const EdgeInsets.all(15),
-                  child: Text("Gone But Not Forgotten"),
+                  child: Text(
+                    "Gone But Not Forgotten",
+                    style: TextStyle(fontSize: 30),
+                  ),
                 ),
               ),
               
