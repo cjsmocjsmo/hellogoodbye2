@@ -26,23 +26,16 @@ class MainScreen extends StatelessWidget {
 
               Card(
                 child: ListTile(
-                  leading: CircleAvatar(
-                    // minRadius: 75.00,
-                    // maxRadius: 100.00,
-                    radius: 50.0,
-                    backgroundImage: NetworkImage("images/d1CircularThumb.png"),
-                  ),
+                  leading: NetworkImage("images/d1CircularThumb.png"),
+                 
                   title: Text('One-line with both widgets'),
                   
                 ),
               ),
 
               ListTile(
-                leading: CircleAvatar(
-                  minRadius: 75.00,
-                  maxRadius: 100.00,
-                  foregroundImage: NetworkImage("images/d1CircularThumb.png"),
-                ),
+                leading: NetworkImage("images/d1CircularThumb.png"),
+               
                 title: Text("Dad")
               ),
           
