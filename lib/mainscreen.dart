@@ -24,11 +24,24 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(8),
             children: <Widget>[
 
+              Card(
+                child: ListTile(
+                  leading: CircleAvatar(
+                    // minRadius: 75.00,
+                    // maxRadius: 100.00,
+                    radius: 50.0,
+                    backgroundImage: NetworkImage("images/d1CircularThumb.png"),
+                  ),
+                  title: Text('One-line with both widgets'),
+                  
+                ),
+              ),
+
               ListTile(
                 leading: CircleAvatar(
                   minRadius: 75.00,
                   maxRadius: 100.00,
-                  backgroundImage: NetworkImage("images/d1CircularThumb.png"),
+                  foregroundImage: NetworkImage("images/d1CircularThumb.png"),
                 ),
                 title: Text("Dad")
               ),
