@@ -28,7 +28,7 @@ class MainScreen extends StatelessWidget {
 
               Center(
                 child: Padding(
-                  padding: const EdgeInsets.all(12);
+                  padding: const EdgeInsets.all(12),
                   child: Text("Gone But Not Forgotten"),
                 ),
               ),
@@ -47,6 +47,14 @@ class MainScreen extends StatelessWidget {
                   child: Image.asset("images/d1CThumb.png")
                 ),
               ),
+
+              Center(
+                child: Padding(
+                  padding: const EdgeInsets.all(12),
+                  child: Text("New Additions"),
+                ),
+              ),
+
               Container(
                 height: 200.0,
                 width: 200.0,
