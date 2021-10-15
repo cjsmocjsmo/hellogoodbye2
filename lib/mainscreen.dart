@@ -28,7 +28,7 @@ class MainScreen extends StatelessWidget {
 
               Center(
                 child: Padding(
-                  padding: const EdgeInsets.all(12),
+                  padding: const EdgeInsets.all(15),
                   child: Text("Gone But Not Forgotten"),
                 ),
               ),
@@ -50,8 +50,12 @@ class MainScreen extends StatelessWidget {
 
               Center(
                 child: Padding(
-                  padding: const EdgeInsets.all(12),
-                  child: Text("New Additions"),
+                  padding: const EdgeInsets.all(15),
+                  child: Text(
+                    style: DefaultTextStyle.of(context).style.apply(fontSizeFactor: 2.0),
+                  "New Additions",
+                    
+                  ),
                 ),
               ),
 
