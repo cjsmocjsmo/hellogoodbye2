@@ -52,9 +52,8 @@ class MainScreen extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(15),
                   child: Text(
+                    "New Additions",
                     style: DefaultTextStyle.of(context).style.apply(fontSizeFactor: 2.0),
-                  "New Additions",
-                    
                   ),
                 ),
               ),
