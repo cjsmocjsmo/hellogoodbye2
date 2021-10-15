@@ -46,6 +46,12 @@ class MainScreen extends StatelessWidget {
                 radius: 50.0,
                 backgroundImage: NetworkImage("images/d1CircularThumb.png"),
               )
+
+              Container(
+                height: 100.0,
+                width: 100.00,
+                child: Image.asset("images/d1CircularThumb.png"),
+              )
           
           
           
