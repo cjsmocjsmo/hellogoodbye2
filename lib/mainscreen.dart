@@ -34,7 +34,7 @@ class MainScreen extends StatelessWidget {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => HelloGoodbyeView()),
+                      MaterialPageRoute(builder: (context) => CDadView()),
                     );
                   },
                   child: Image.asset("images/d1CThumb.png")
