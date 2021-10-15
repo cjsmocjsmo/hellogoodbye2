@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'mainscreen.dart';
-import 'hellogoodbyeview.dart';
+import 'cdadview.dart';
 
 void main() => runApp(Family());
 
@@ -12,7 +12,7 @@ class Family extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(title: _title, initialRoute: '/', routes: {
       '/': (context) => MainScreen(),
-      '/CDad': (context) => HelloGoodbyeView(),
+      '/CDad': (context) => CDadView(),
     });
   }
 }

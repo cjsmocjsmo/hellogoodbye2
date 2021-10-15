@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'videoplayerscreen.dart';
 import 'package:transparent_image/transparent_image.dart';
 
-class HelloGoodbyeView extends StatelessWidget{
+class CDadView extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
