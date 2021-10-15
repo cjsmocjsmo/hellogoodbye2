@@ -26,7 +26,7 @@ class MainScreen extends StatelessWidget {
 
               Card(
                 child: ListTile(
-                  leading: NetworkImage("images/d1CircularThumb.png"),
+                  leading: Image.asset("images/d1CircularThumb.png"),
                  
                   title: Text('One-line with both widgets'),
                   
@@ -34,7 +34,7 @@ class MainScreen extends StatelessWidget {
               ),
 
               ListTile(
-                leading: NetworkImage("images/d1CircularThumb.png"),
+                leading: Image.asset("images/d1CircularThumb.png"),
                
                 title: Text("Dad")
               ),
