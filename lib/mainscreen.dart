@@ -53,7 +53,7 @@ class MainScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(15),
                   child: Text(
                     "New Additions",
-                    style: TextStyle(height: 5, fontSize: 15),
+                    style: TextStyle(height: 5, fontSize: 30),
                   ),
                 ),
               ),
