@@ -24,41 +24,20 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(8),
             children: <Widget>[
 
-              Card(
-                child: ListTile(
-                  leading: Image.asset("images/d1CircularThumb.png"),
-                 
-                  title: Text('One-line with both widgets'),
-                  
-                ),
-              ),
 
-              ListTile(
-                leading: Image.asset("images/d1CircularThumb.png"),
-               
-                title: Text("Dad")
-              ),
-          
-              
-              CircleAvatar(
-                // minRadius: 75.00,
-                // maxRadius: 100.00,
-                radius: 50.0,
-                backgroundImage: NetworkImage("images/d1CircularThumb.png"),
-              ),
 
               Container(
-                height: 100.0,
-                width: 100.00,
-                child: Image.asset("images/d1CircularThumb.png"),
+                height: 150.0,
+                width: 150.00,
+                child: GestureDetector(
+                  onTap: () {
+                    // _zoomPage('images/d1.jpg', context);
+                  },
+                  child: Image.asset("images/d1CircularThumb.png")
+                ),
               ),
           
           
-          
-          
-          
-          
-          // HelloGoodbyeView(),
           ]
         ),
       )
