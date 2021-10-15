@@ -27,13 +27,13 @@ class MainScreen extends StatelessWidget {
 
 
               Container(
-                height: 150.0,
-                width: 150.00,
+                height: 200.0,
+                width: 200.0,
                 child: GestureDetector(
                   onTap: () {
                     // _zoomPage('images/d1.jpg', context);
                   },
-                  child: Image.asset("images/d1CircularThumb.png")
+                  child: Image.asset("images/d1CThumb.png")
                 ),
               ),
           
