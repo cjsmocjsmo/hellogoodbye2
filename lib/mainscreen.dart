@@ -47,7 +47,7 @@ class MainScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => CDadView()),
                     );
                   },
-                  child: Image.asset("images/d1CThumb.png")
+                  child: Image.asset("images/circalThumb/d1CThumb.png")
                 ),
               ),
 
@@ -71,7 +71,7 @@ class MainScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => TobbyView()),
                     );
                   },
-                  child: Image.asset("images/p4CThumb.png")
+                  child: Image.asset("images/circalthub/p4CThumb.png")
                 ),
               ),
           

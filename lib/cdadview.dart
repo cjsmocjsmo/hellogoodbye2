@@ -30,7 +30,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d1.jpg', context);
                 },
-                child: Image.asset('images/d1thumb.jpg')
+                child: Image.asset('images/thumb/d1thumb.jpg')
               ),
             ),
             Container(
@@ -39,7 +39,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d2.jpg', context);
                 },
-                child: Image.asset('images/d2thumb.jpg')
+                child: Image.asset('images/thumb/d2thumb.jpg')
               ),
             ),
             Container(
@@ -48,7 +48,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d4.jpg', context);
                 },
-                child: Image.asset('images/d4thumb.jpg')
+                child: Image.asset('images/thumb/d4thumb.jpg')
               ),
             ),
             Container(
@@ -57,7 +57,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d5.jpg', context);
                 },
-                child: Image.asset('images/d5thumb.jpg')
+                child: Image.asset('images/thumb/d5thumb.jpg')
               ),
             ),
             Container(
@@ -66,7 +66,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d6.jpg', context);
                 },
-                child: Image.asset('images/d6thumb.jpg')
+                child: Image.asset('images/thumb/d6thumb.jpg')
               ),
             ),
             Container(
@@ -75,7 +75,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d7.jpg', context);
                 },
-                child: Image.asset('images/d7thumb.jpg')
+                child: Image.asset('images/thumb/d7thumb.jpg')
               ),
             ),
             Container(
@@ -84,7 +84,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d8.jpg', context);
                 },
-                child: Image.asset('images/d8thumb.jpg')
+                child: Image.asset('images/thumb/d8thumb.jpg')
               ),
             ),
             Container(
@@ -93,7 +93,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d9.jpg', context);
                 },
-                child: Image.asset('images/d9thumb.jpg')
+                child: Image.asset('images/thumb/d9thumb.jpg')
               ),
             ),
             Container(
@@ -102,7 +102,7 @@ class CDadView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/d10.jpg', context);
                 },
-                child: Image.asset('images/d10thumb.jpg'),
+                child: Image.asset('images/thumb/d10thumb.jpg'),
               )
             ),
             // Container(
@@ -111,7 +111,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic1-1.jpg', context);
             //     },
-            //     child: Image.asset('images/pic1-1thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic1-1thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -120,7 +120,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic2-1.jpg', context);
             //     },
-            //     child: Image.asset('images/pic2-1thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic2-1thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -129,7 +129,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic3-1.jpg', context);
             //     },
-            //     child: Image.asset('images/pic3-1thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic3-1thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -138,7 +138,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic4.jpg', context);
             //     },
-            //     child: Image.asset('images/pic4thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic4thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -147,7 +147,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic5.jpg', context);
             //     },
-            //     child: Image.asset('images/pic5thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic5thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -156,7 +156,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic7.jpg', context);
             //     },
-            //     child: Image.asset('images/pic7thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic7thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -165,7 +165,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic8.jpg', context);
             //     },
-            //     child: Image.asset('images/pic8thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic8thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -174,7 +174,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic10.jpg', context);
             //     },
-            //     child: Image.asset('images/pic10thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic10thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -183,7 +183,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic12.jpg', context);
             //     },
-            //     child: Image.asset('images/pic12thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic12thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -192,7 +192,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/pic9.jpg', context);
             //     },
-            //     child: Image.asset('images/pic9thumb.jpg'),
+            //     child: Image.asset('images/thumb/pic9thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -201,7 +201,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/p1.jpg', context);
             //     },
-            //     child: Image.asset('images/p1thumb.jpg'),
+            //     child: Image.asset('images/thumb/p1thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -210,7 +210,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/p2.jpg', context);
             //     },
-            //     child: Image.asset('images/p2thumb.jpg'),
+            //     child: Image.asset('images/thumb/p2thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -219,7 +219,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/p3.jpg', context);
             //     },
-            //     child: Image.asset('images/p3thumb.jpg'),
+            //     child: Image.asset('images/thumb/p3thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -228,7 +228,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/p4.jpg', context);
             //     },
-            //     child: Image.asset('images/p4thumb.jpg'),
+            //     child: Image.asset('images/thumb/p4thumb.jpg'),
             //   )
             // ),
             // Container(
@@ -237,7 +237,7 @@ class CDadView extends StatelessWidget{
             //     onTap: () {
             //       _zoomPage('images/p5.jpg', context);
             //     },
-            //     child: Image.asset('images/p5thumb.jpg'),
+            //     child: Image.asset('images/thumb/p5thumb.jpg'),
             //   )
             // ),
             ],
