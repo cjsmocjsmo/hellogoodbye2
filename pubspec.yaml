@@ -51,6 +51,8 @@ flutter:
     - images/
     - images/circalthumb/
     - images/thumb/
+    - images/Dad/
+    - images/Tobby/
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
