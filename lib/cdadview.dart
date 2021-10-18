@@ -28,7 +28,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d1.jpg', context);
+                  _zoomPage('images/Dad/d1.jpg', context);
                 },
                 child: Image.asset('images/thumb/d1thumb.jpg')
               ),
@@ -37,7 +37,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d2.jpg', context);
+                  _zoomPage('images/Dad/d2.jpg', context);
                 },
                 child: Image.asset('images/thumb/d2thumb.jpg')
               ),
@@ -46,7 +46,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d4.jpg', context);
+                  _zoomPage('images/Dad/d4.jpg', context);
                 },
                 child: Image.asset('images/thumb/d4thumb.jpg')
               ),
@@ -55,7 +55,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d5.jpg', context);
+                  _zoomPage('images/Dad/d5.jpg', context);
                 },
                 child: Image.asset('images/thumb/d5thumb.jpg')
               ),
@@ -64,7 +64,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d6.jpg', context);
+                  _zoomPage('images/Dad/d6.jpg', context);
                 },
                 child: Image.asset('images/thumb/d6thumb.jpg')
               ),
@@ -73,7 +73,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d7.jpg', context);
+                  _zoomPage('images/Dad/d7.jpg', context);
                 },
                 child: Image.asset('images/thumb/d7thumb.jpg')
               ),
@@ -82,7 +82,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d8.jpg', context);
+                  _zoomPage('images/Dad/d8.jpg', context);
                 },
                 child: Image.asset('images/thumb/d8thumb.jpg')
               ),
@@ -91,7 +91,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d9.jpg', context);
+                  _zoomPage('images/Dad/d9.jpg', context);
                 },
                 child: Image.asset('images/thumb/d9thumb.jpg')
               ),
@@ -100,7 +100,7 @@ class CDadView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/d10.jpg', context);
+                  _zoomPage('images/Dad/d10.jpg', context);
                 },
                 child: Image.asset('images/thumb/d10thumb.jpg'),
               )
@@ -109,7 +109,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic1-1.jpg', context);
+            //       _zoomPage('images/Dad/pic1-1.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic1-1thumb.jpg'),
             //   )
@@ -118,7 +118,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic2-1.jpg', context);
+            //       _zoomPage('images/Dad/pic2-1.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic2-1thumb.jpg'),
             //   )
@@ -127,7 +127,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic3-1.jpg', context);
+            //       _zoomPage('images/Dad/pic3-1.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic3-1thumb.jpg'),
             //   )
@@ -136,7 +136,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic4.jpg', context);
+            //       _zoomPage('images/Dad/pic4.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic4thumb.jpg'),
             //   )
@@ -145,7 +145,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic5.jpg', context);
+            //       _zoomPage('images/Dad/pic5.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic5thumb.jpg'),
             //   )
@@ -154,7 +154,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic7.jpg', context);
+            //       _zoomPage('images/Dad/pic7.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic7thumb.jpg'),
             //   )
@@ -163,7 +163,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic8.jpg', context);
+            //       _zoomPage('images/Dad/pic8.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic8thumb.jpg'),
             //   )
@@ -172,7 +172,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic10.jpg', context);
+            //       _zoomPage('images/Dad/pic10.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic10thumb.jpg'),
             //   )
@@ -181,7 +181,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic12.jpg', context);
+            //       _zoomPage('images/Dad/pic12.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic12thumb.jpg'),
             //   )
@@ -190,7 +190,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/pic9.jpg', context);
+            //       _zoomPage('images/Dad/pic9.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/pic9thumb.jpg'),
             //   )
@@ -199,7 +199,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/p1.jpg', context);
+            //       _zoomPage('images/Dad/p1.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/p1thumb.jpg'),
             //   )
@@ -208,7 +208,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/p2.jpg', context);
+            //       _zoomPage('images/Dad/p2.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/p2thumb.jpg'),
             //   )
@@ -217,7 +217,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/p3.jpg', context);
+            //       _zoomPage('images/Dad/p3.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/p3thumb.jpg'),
             //   )
@@ -226,7 +226,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/p4.jpg', context);
+            //       _zoomPage('images/Dad/p4.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/p4thumb.jpg'),
             //   )
@@ -235,7 +235,7 @@ class CDadView extends StatelessWidget{
             //   padding: const EdgeInsets.all(8),
             //   child: GestureDetector(
             //     onTap: () {
-            //       _zoomPage('images/p5.jpg', context);
+            //       _zoomPage('images/Dad/p5.jpg', context);
             //     },
             //     child: Image.asset('images/thumb/p5thumb.jpg'),
             //   )
