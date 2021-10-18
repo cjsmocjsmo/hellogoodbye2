@@ -47,7 +47,7 @@ class MainScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => CDadView()),
                     );
                   },
-                  child: Image.asset("images/circalthumb/d1CircularThumb.png")
+                  child: Image.asset("images/circalthumb/d1CThumb.png")
                 ),
               ),
 
