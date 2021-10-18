@@ -84,7 +84,7 @@ class MainScreen extends StatelessWidget {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => TobbyView()),
+                      MaterialPageRoute(builder: (context) => TexasTripView()),
                     );
                   },
                   // child: Image.asset("images/circalthumb/p4CThumb.png")
