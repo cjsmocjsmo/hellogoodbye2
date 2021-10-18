@@ -30,7 +30,7 @@ class TexasTripView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/TexasTrip/20211010/20211010_122420_HDR.jpg', context);
                 },
-                child: Image.asset('images/TexasTrip/20211010/20211010_122420_HDR_Thumb.jpg'),
+                child: Image.asset('images/thumb/20211010_122420_HDR_Thumb.jpg'),
               )
             ),
             Container(
