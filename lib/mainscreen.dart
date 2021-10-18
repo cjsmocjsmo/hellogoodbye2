@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'cdadview.dart';
 import 'tobbyview.dart';
+import 'texastrip.dart';
 
 // import 'package:http/http.dart' as http;
 // import 'dart:convert';
