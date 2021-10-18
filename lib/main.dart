@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'mainscreen.dart';
 import 'cdadview.dart';
+import 'texastrip.dart';
 
 void main() => runApp(Family());
 
