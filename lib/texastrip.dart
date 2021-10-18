@@ -28,7 +28,7 @@ class TexasTripView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/TexasTrip/20211010/20211010_122420_HDR.jpg', context);
+                  _zoomPage('images/TexasTrip/20211010/20211010_122420_HDR2.jpg', context);
                 },
                 child: Image.asset('images/thumb/20211010_122420_HDR_Thumb.jpg'),
               )
