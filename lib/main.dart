@@ -13,6 +13,7 @@ class Family extends StatelessWidget {
     return MaterialApp(title: _title, initialRoute: '/', routes: {
       '/': (context) => MainScreen(),
       '/CDad': (context) => CDadView(),
+      '/TexasTrip': (context) => TexasTripView(),
     });
   }
 }
