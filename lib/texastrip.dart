@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'videoplayerscreen.dart';
 import 'package:transparent_image/transparent_image.dart';
 
+import 'package:photo_view/photo_view.dart';
+
 class TexasTripView extends StatelessWidget{
 
   @override
@@ -182,7 +184,11 @@ Future<void> _zoomPage(String apath, BuildContext context) {
             child: Center(
               child: Container(
                 width: 600.0,
-                child: Image.asset(apath),
+                child: PhotoView(
+                  imageProvider: AssetImage(apath)
+                ),
+                
+                // Image.asset(apath),
               ),
             ),
           )
