@@ -53,7 +53,7 @@ class MainScreen extends StatelessWidget {
                     child: Image.asset("images/circalthumb/d1CThumb.png")
                   ),
                 ),
-              )
+              ),
               
 
               // Center(
@@ -80,7 +80,7 @@ class MainScreen extends StatelessWidget {
                     child: Image.asset("images/circalthumb/p4CThumb.png")
                   ),
                 ),
-              )
+              ),
               
               Expanded(
                 child: Container(
@@ -97,7 +97,7 @@ class MainScreen extends StatelessWidget {
                     child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                   ),
                 ),
-              )
+              ),
               
           
           ]
