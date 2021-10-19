@@ -24,7 +24,7 @@ class MainScreen extends StatelessWidget {
           ),
           child: Row(
             // child: ListView(
-            padding: const EdgeInsets.all(22),
+            // padding: const EdgeInsets.all(22),
             children: <Widget>[
 
 
