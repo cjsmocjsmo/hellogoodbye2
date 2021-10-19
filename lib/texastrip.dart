@@ -275,7 +275,7 @@ List<Map> picmaplist = [
     "zoompage": 'images/TexasTrip/20211010/20211010_164850-2.jpg', 
     "page": 'images/thumb/20211010_164850_Thumb.jpg',
   }, 
-]
+];
 
 
 class TexasTripView extends StatelessWidget{
