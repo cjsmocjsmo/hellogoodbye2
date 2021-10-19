@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
-// import 'package:http/http.dart' as http;
-// import 'dart:convert';
-import 'videoplayerscreen.dart';
-import 'package:transparent_image/transparent_image.dart';
+// import 'videoplayerscreen.dart';
+// import 'package:transparent_image/transparent_image.dart';
 
 class CDadView extends StatelessWidget{
 
@@ -106,145 +104,9 @@ class CDadView extends StatelessWidget{
                 child: Image.asset('images/thumb/d10thumb.jpg'),
               )
             ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic1-1.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic1-1thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic2-1.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic2-1thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic3-1.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic3-1thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic4.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic4thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic5.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic5thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic7.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic7thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic8.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic8thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic10.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic10thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic12.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic12thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/pic9.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/pic9thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/p1.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/p1thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/p2.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/p2thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/p3.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/p3thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/p4.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/p4thumb.jpg'),
-            //   )
-            // ),
-            // Container(
-            //   padding: const EdgeInsets.all(8),
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       _zoomPage('images/Dad/p5.jpg', context);
-            //     },
-            //     child: Image.asset('images/thumb/p5thumb.jpg'),
-            //   )
-            // ),
-            ],
-          ),
+          ],
         ),
-        
+      ),
     );
   }
 }
@@ -267,8 +129,6 @@ Future<void> _zoomPage(String apath, BuildContext context) {
                 child: PhotoView(
                   imageProvider: AssetImage(apath)
                 ),
-                
-                // Image.asset(apath),
               ),
             ),
           )
