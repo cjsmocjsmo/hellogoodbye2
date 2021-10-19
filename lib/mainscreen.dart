@@ -22,7 +22,8 @@ class MainScreen extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.purple[300],
           ),
-          child: Row(
+          child: Center(
+            child: Row(
             // child: ListView(
             // padding: const EdgeInsets.all(22),
             children: <Widget>[
@@ -95,7 +96,7 @@ class MainScreen extends StatelessWidget {
           
           ]
         ),
-        // ),
+        ),
       )
     );
   }
