@@ -22,14 +22,15 @@ class MainScreen extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.purple[300],
           ),
-          child: ListView(
+          child: Row(
+            child: ListView(
             padding: const EdgeInsets.all(22),
             children: <Widget>[
 
 
               // Center(
               //   child: Padding(
-              //     padding: const EdgeInsets.all(15),
+              //     padding: const EdgeInsets.all(15),+
               //     child: Text(
               //       "Gone But Not Forgotten",
               //       style: TextStyle(fontSize: 30),
@@ -93,6 +94,7 @@ class MainScreen extends StatelessWidget {
               ),
           
           ]
+        ),
         ),
       )
     );
