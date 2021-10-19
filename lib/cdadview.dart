@@ -263,7 +263,11 @@ Future<void> _zoomPage(String apath, BuildContext context) {
             child: Center(
               child: Container(
                 width: 600.0,
-                child: Image.asset(apath),
+                child: PhotoView(
+                  imageProvider: AssetImage(apath)
+                ),
+                
+                // Image.asset(apath),
               ),
             ),
           )
