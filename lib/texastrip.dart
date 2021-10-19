@@ -307,7 +307,7 @@ class TexasTripView extends StatelessWidget{
               },
                 child: Image.asset(picmaplist[index]["page"]),
               )
-            ),
+            );
           }
         ),
         
