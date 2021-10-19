@@ -10,7 +10,7 @@ class TexasTripView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Tobby"),
+        title: Text("Texas Trip"),
         backgroundColor: Colors.purple.shade700,
       ),
       body: Container(
@@ -82,18 +82,18 @@ class TexasTripView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/Tobby/pic8.jpg', context);
+                  _zoomPage('images/TexasTrip/20211010/20211010_122621_HDR2.jpg', context);
                 },
-                child: Image.asset('images/thumb/pic8thumb.jpg'),
+                child: Image.asset('images/thumb/20211010_122621_HDR_Thumb.jpg'),
               )
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/Tobby/pic10.jpg', context);
+                  _zoomPage('images/TexasTrip/20211010/20211010_124206-2.jpg', context);
                 },
-                child: Image.asset('images/thumb/pic10thumb.jpg'),
+                child: Image.asset('images/thumb/20211010_122621_Thumb.jpg'),
               )
             ),
             Container(
