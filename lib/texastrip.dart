@@ -93,34 +93,34 @@ class TexasTripView extends StatelessWidget{
                 onTap: () {
                   _zoomPage('images/TexasTrip/20211010/20211010_124206-2.jpg', context);
                 },
-                child: Image.asset('images/thumb/20211010_122621_Thumb.jpg'),
+                child: Image.asset('images/thumb/20211010_124206_Thumb.jpg'),
               )
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/Tobby/pic12.jpg', context);
+                  _zoomPage('images/TexasTrip/20211010/20211010_124209-2.jpg', context);
                 },
-                child: Image.asset('images/thumb/pic12thumb.jpg'),
+                child: Image.asset('images/thumb/20211010_124209_Thumb.jpg'),
               )
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/Tobby/pic9.jpg', context);
+                  _zoomPage('images/TexasTrip/20211010/20211010_124216-2.jpg', context);
                 },
-                child: Image.asset('images/thumb/pic9thumb.jpg'),
+                child: Image.asset('images/thumb/20211010_124216_Thumb.jpg'),
               )
             ),
             Container(
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('images/Tobby/p1.jpg', context);
+                  _zoomPage('images/TexasTrip/20211010/20211010_125208_Burst01-2.jpg', context);
                 },
-                child: Image.asset('images/thumb/p1thumb.jpg'),
+                child: Image.asset('images/thumb/20211010_125208_Burst01_Thumb.jpg'),
               )
             ),
             Container(
