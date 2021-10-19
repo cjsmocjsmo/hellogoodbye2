@@ -39,20 +39,22 @@ class MainScreen extends StatelessWidget {
               //   ),
               // ),
               
-
-              Container(
-                height: 200.0,
-                width: 200.0,
-                child: GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => CDadView()),
-                    );
-                  },
-                  child: Image.asset("images/circalthumb/d1CThumb.png")
+              Expanded(
+                child: Container(
+                  height: 200.0,
+                  width: 200.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => CDadView()),
+                      );
+                    },
+                    child: Image.asset("images/circalthumb/d1CThumb.png")
+                  ),
                 ),
-              ),
+              )
+              
 
               // Center(
               //   child: Padding(
@@ -63,36 +65,40 @@ class MainScreen extends StatelessWidget {
               //     ),
               //   ),
               // ),
-
-              Container(
-                height: 200.0,
-                width: 200.0,
-                child: GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => TobbyView()),
-                    );
-                  },
-                  // child: Image.asset("images/circalthumb/p4CThumb.png")
-                  child: Image.asset("images/circalthumb/p4CThumb.png")
+              Expanded(
+                child: Container(
+                  height: 200.0,
+                  width: 200.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => TobbyView()),
+                      );
+                    },
+                    // child: Image.asset("images/circalthumb/p4CThumb.png")
+                    child: Image.asset("images/circalthumb/p4CThumb.png")
+                  ),
                 ),
-              ),
-
-              Container(
-                height: 200.0,
-                width: 200.0,
-                child: GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => TexasTripView()),
-                    );
-                  },
-                  // child: Image.asset("images/circalthumb/p4CThumb.png")
-                  child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+              )
+              
+              Expanded(
+                child: Container(
+                  height: 200.0,
+                  width: 200.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => TexasTripView()),
+                      );
+                    },
+                    // child: Image.asset("images/circalthumb/p4CThumb.png")
+                    child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                  ),
                 ),
-              ),
+              )
+              
           
           ]
         ),
