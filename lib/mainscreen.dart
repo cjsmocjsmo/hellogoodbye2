@@ -98,7 +98,7 @@ class MainScreen extends StatelessWidget {
                         // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                         child: CircleAvatar(
                           backgroundColor: Colors.brown.shade800,
-                          child: const Text('Zero \n Ashes'),
+                          child: const Text('Zero', style: TextStyle(fontSize: 18)),
                         )
                       ),
                     ),
@@ -118,7 +118,7 @@ class MainScreen extends StatelessWidget {
                         // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                         child: CircleAvatar(
                           backgroundColor: Colors.brown.shade800,
-                          child: const Text('Vid2'),
+                          child: const Text('Vid2', style: TextStyle(fontSize: 18)),
                         )
                       ),
                     ),
@@ -137,8 +137,8 @@ class MainScreen extends StatelessWidget {
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
                         // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                         child: CircleAvatar(
-                          backgroundColor: Colors.brown.shade800,
-                          child: const Text('Vid3'),
+                          backgroundColor: Colors.amber.shade400,
+                          child: const Text('Vid3', style: TextStyle(fontSize: 18)),
                         )
                       ),
                     ),
