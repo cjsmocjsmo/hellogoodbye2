@@ -11,7 +11,7 @@ class TobbyView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Tobby"),
+        title: Text("Tobi"),
         backgroundColor: Colors.purple.shade700,
       ),
       body: Container(
@@ -160,6 +160,16 @@ class TobbyView extends StatelessWidget{
                 child: Image.asset('images/thumb/p5thumb.jpg'),
               )
             ),
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: GestureDetector(
+                onTap: () {
+                  _zoomPage('https://drive.google.com/file/d/1G3cAJZcJ9SCBgQT3hC9BTT4rG3aJWe7E/view?usp=sharing', context);
+                },
+                child: Image.asset('images/thumb/p5thumb.jpg'),
+              )
+            ),
+            
             ],
           ),
         ),
@@ -173,7 +183,7 @@ Future<void> _zoomPage(String apath, BuildContext context) {
       builder: (BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          title: Text("Family Up Close"),
+          title: Text("Tobi Up Close"),
           backgroundColor: Colors.purple.shade700,
         ),
         body: Container(
@@ -186,8 +196,6 @@ Future<void> _zoomPage(String apath, BuildContext context) {
                 child: PhotoView(
                   imageProvider: AssetImage(apath)
                 ),
-                
-                // Image.asset(apath),
               ),
             ),
           )
