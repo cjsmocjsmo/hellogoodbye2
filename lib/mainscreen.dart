@@ -24,98 +24,86 @@ class MainScreen extends StatelessWidget {
             color: Colors.purple[300],
           ),
           child: Center(
-            child: Row(
-            // child: ListView(
-            // padding: const EdgeInsets.all(22),
+            child: Column(
             children: <Widget>[
 
+              Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Container(
+                      height: 200.0,
+                      width: 200.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => CDadView()),
+                          );
+                        },
+                        child: Image.asset("images/circalthumb/d1CThumb.png")
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      height: 200.0,
+                      width: 200.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => TobbyView()),
+                          );
+                        },
+                        // child: Image.asset("images/circalthumb/p4CThumb.png")
+                        child: Image.asset("images/circalthumb/p4CThumb.png")
+                      ),
+                    ),
+                  ),
+                  
+                  Expanded(
+                    child: Container(
+                      height: 200.0,
+                      width: 200.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => TexasTripView()),
+                          );
+                        },
+                        // child: Image.asset("images/circalthumb/p4CThumb.png")
+                        child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                      ),
+                    ),
+                  ),
 
-              // Center(
-              //   child: Padding(
-              //     padding: const EdgeInsets.all(15),+
-              //     child: Text(
-              //       "Gone But Not Forgotten",
-              //       style: TextStyle(fontSize: 30),
-              //     ),
-              //   ),
-              // ),
-              
-              Expanded(
-                child: Container(
-                  height: 200.0,
-                  width: 200.0,
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => CDadView()),
-                      );
-                    },
-                    child: Image.asset("images/circalthumb/d1CThumb.png")
+                  
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Container(
+                      height: 200.0,
+                      width: 200.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
+                          );
+                        },
+                        // child: Image.asset("images/circalthumb/p4CThumb.png")
+                        child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                      ),
+                    ),
                   ),
-                ),
+                ],
               ),
               
-
-              // Center(
-              //   child: Padding(
-              //     padding: const EdgeInsets.all(15),
-              //     child: Text(
-              //       "New Additions",
-              //       style: TextStyle(height: 5, fontSize: 30),
-              //     ),
-              //   ),
-              // ),
-              Expanded(
-                child: Container(
-                  height: 200.0,
-                  width: 200.0,
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => TobbyView()),
-                      );
-                    },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
-                    child: Image.asset("images/circalthumb/p4CThumb.png")
-                  ),
-                ),
-              ),
               
-              Expanded(
-                child: Container(
-                  height: 200.0,
-                  width: 200.0,
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => TexasTripView()),
-                      );
-                    },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
-                    child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                  ),
-                ),
-              ),
-
-              Expanded(
-                child: Container(
-                  height: 200.0,
-                  width: 200.0,
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
-                      );
-                    },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
-                    child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                  ),
-                ),
-              ),
+              
           
           ]
         ),
