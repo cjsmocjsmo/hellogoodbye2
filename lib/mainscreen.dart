@@ -95,7 +95,11 @@ class MainScreen extends StatelessWidget {
                           );
                         },
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
-                        child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                        child: CircleAvatar(
+                          backgroundColor: Colors.brown.shade800,
+                          child: const Text('Vid1'),
+                        )
                       ),
                     ),
                   ),
