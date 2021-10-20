@@ -10,19 +10,19 @@ import 'package:video_player/video_player.dart';
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
 //       title: 'Video Player Demo',
-//       home: VideoPlayerScreen(),
+//       home: Vid2VideoPlayerScreen(),
 //     );
 //   }
 // }
 
 class Vid2VideoPlayerScreen extends StatefulWidget {
-  VideoPlayerScreen({Key? key}) : super(key: key);
+  Vid2VideoPlayerScreen({Key? key}) : super(key: key);
 
   @override
-  _VideoPlayerScreenState createState() => _VideoPlayerScreenState();
+  _Vid2VideoPlayerScreenState createState() => _Vid2VideoPlayerScreenState();
 }
 
-class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
+class _Vid2VideoPlayerScreenState extends State<Vid2VideoPlayerScreen> {
   late VideoPlayerController _controller;
   late Future<void> _initializeVideoPlayerFuture;
 
