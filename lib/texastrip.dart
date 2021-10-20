@@ -6,22 +6,22 @@ import 'package:photo_view/photo_view.dart';
 
 List<Map> picmaplist = [
   {
-    "id": '1', 
+    "id": 1, 
     "zoompage": 'images/TexasTrip/20211010/20211010_122420_HDR2.jpg', 
     "page": 'images/thumb/20211010_122420_HDR_Thumb.jpg', 
   },
   {
-    "id": '2', 
+    "id": 2, 
     "zoompage": 'images/TexasTrip/20211010/20211010_122438_HDR2.jpg', 
     "page": 'images/thumb/20211010_122438_HDR_Thumb.jpg', 
   },
   { 
-    "id": '3', 
+    "id": 3, 
     "zoompage": 'images/TexasTrip/20211010/20211010_122551_HDR2.jpg', 
     "page": 'images/thumb/20211010_122551_HDR_Thumb.jpg', 
   },
   { 
-    "id": '4', 
+    "id": 4, 
     "zoompage": 'images/TexasTrip/20211010/20211010_122603_HDR2.jpg', 
     "page": 'images/thumb/20211010_122603_HDR_Thumb.jpg', 
   },
@@ -274,7 +274,27 @@ List<Map> picmaplist = [
     "id": 54, 
     "zoompage": 'images/TexasTrip/20211010/20211010_164850-2.jpg', 
     "page": 'images/thumb/20211010_164850_Thumb.jpg',
-  }, 
+  },
+  { 
+    "id": 55, 
+    "zoompage": 'images/TexasTrip/20211003/20211003_131040-2.jpg', 
+    "page": 'images/thumb/20211003_131040_Thumb.jpg',
+  },
+  { 
+    "id": 56, 
+    "zoompage": 'images/TexasTrip/20211003/20211003_131052-2.jpg', 
+    "page": 'images/thumb/20211003_131052_Thumb.jpg',
+  },
+  { 
+    "id": 57, 
+    "zoompage": 'images/TexasTrip/20211003/20211003_131117-2.jpg', 
+    "page": 'images/thumb/20211003_131117_Thumb.jpg',
+  },
+  { 
+    "id": 58, 
+    "zoompage": 'images/TexasTrip/20211003/20211003_131139-2.jpg', 
+    "page": 'images/thumb/20211003_131139_Thumb.jpg',
+  },
 ];
 
 
