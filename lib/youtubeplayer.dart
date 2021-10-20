@@ -216,7 +216,7 @@ class _BumbleBeeRemoteVideoState extends State<_BumbleBeeRemoteVideo> {
     //   videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
     // );
     _controller = VideoPlayerController.asset(
-      'images/20211003_164926.mp4',
+      'images/20210722_185148copy.mp4',
       // 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       // closedCaptionFile: _loadCaptions(),
       videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
@@ -250,7 +250,7 @@ class _BumbleBeeRemoteVideoState extends State<_BumbleBeeRemoteVideo> {
                 alignment: Alignment.bottomCenter,
                 children: <Widget>[
                   VideoPlayer(_controller),
-                  ClosedCaption(text: _controller.value.caption.text),
+                  // ClosedCaption(text: _controller.value.caption.text),
                   _ControlsOverlay(controller: _controller),
                   VideoProgressIndicator(_controller, allowScrubbing: true),
                 ],
