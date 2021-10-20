@@ -44,7 +44,7 @@ class YouTubePlayerScreen extends StatelessWidget {
         //       Tab(icon: Icon(Icons.list), text: "List example"),
         //     ],
         //   ),
-        // ),
+        ),
         body: Container(
         decoration: BoxDecoration(
           color: Colors.purple.shade200,
@@ -52,7 +52,6 @@ class YouTubePlayerScreen extends StatelessWidget {
         child: _BumbleBeeRemoteVideo(),
 
         ),
-      ),
       ),
     );
   }
