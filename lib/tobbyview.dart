@@ -164,7 +164,7 @@ class TobbyView extends StatelessWidget{
               padding: const EdgeInsets.all(8),
               child: GestureDetector(
                 onTap: () {
-                  _zoomPage('https://drive.google.com/file/d/1G3cAJZcJ9SCBgQT3hC9BTT4rG3aJWe7E/view?usp=sharing', context);
+                  _zoomPage2('https://drive.google.com/file/d/1G3cAJZcJ9SCBgQT3hC9BTT4rG3aJWe7E/view?usp=sharing', context);
                 },
                 child: Image.asset('images/thumb/p5thumb.jpg'),
               )
@@ -195,6 +195,33 @@ Future<void> _zoomPage(String apath, BuildContext context) {
                 width: 600.0,
                 child: PhotoView(
                   imageProvider: AssetImage(apath)
+                ),
+              ),
+            ),
+          )
+        );
+      }
+    ),
+  );
+}
+
+Future<void> _zoomPage2(String apath, BuildContext context) {
+  return Navigator.push(context, MaterialPageRoute<void>(
+      builder: (BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(
+          title: Text("Tobi Up Close"),
+          backgroundColor: Colors.purple.shade700,
+        ),
+        body: Container(
+            decoration: BoxDecoration(
+              color: Colors.purple.shade400,
+            ),
+            child: Center(
+              child: Container(
+                width: 600.0,
+                child: PhotoView(
+                  imageProvider: NetworkImage(apath)
                 ),
               ),
             ),
