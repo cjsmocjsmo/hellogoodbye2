@@ -3,7 +3,7 @@ import 'package:photo_view/photo_view.dart';
 // import 'package:http/http.dart' as http;
 // import 'dart:convert';
 import 'videoplayerscreen.dart';
-import 'package:transparent_image/transparent_image.dart';
+// import 'package:transparent_image/transparent_image.dart';
 
 class TobbyView extends StatelessWidget{
 
