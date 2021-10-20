@@ -17,9 +17,9 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 //     );
 //   }
 // }
-
+// https://youtu.be/_b2oRXJPR_A
 class YouTubePlayerScreen extends StatelessWidget {
-  static String myVideoId = 'PQSagzssvUQ';
+  static String myVideoId = 'https://youtu.be/_b2oRXJPR_A';
   // the full url: https://www.youtube.com/watch?v=PQSagzssvUQ&ab_channel=NASA
   // it's an interesting video from NASA on Youtube
 
