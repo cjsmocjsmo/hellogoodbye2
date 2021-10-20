@@ -19,38 +19,38 @@ class YouTubePlayerScreen extends StatelessWidget {
         key: const ValueKey<String>('home_page'),
         appBar: AppBar(
           title: const Text('Video player example'),
-          actions: <Widget>[
-            IconButton(
-              key: const ValueKey<String>('push_tab'),
-              icon: const Icon(Icons.navigation),
-              onPressed: () {
-                Navigator.push<_PlayerVideoAndPopPage>(
-                  context,
-                  MaterialPageRoute<_PlayerVideoAndPopPage>(
-                    builder: (BuildContext context) => _PlayerVideoAndPopPage(),
-                  ),
-                );
-              },
-            )
-          ],
-          bottom: const TabBar(
-            isScrollable: true,
-            tabs: <Widget>[
-              Tab(
-                icon: Icon(Icons.cloud),
-                text: "Remote",
-              ),
-              Tab(icon: Icon(Icons.insert_drive_file), text: "Asset"),
-              Tab(icon: Icon(Icons.list), text: "List example"),
-            ],
-          ),
+        //   actions: <Widget>[
+        //     IconButton(
+        //       key: const ValueKey<String>('push_tab'),
+        //       icon: const Icon(Icons.navigation),
+        //       onPressed: () {
+        //         Navigator.push<_PlayerVideoAndPopPage>(
+        //           context,
+        //           MaterialPageRoute<_PlayerVideoAndPopPage>(
+        //             builder: (BuildContext context) => _PlayerVideoAndPopPage(),
+        //           ),
+        //         );
+        //       },
+        //     )
+        //   ],
+        //   bottom: const TabBar(
+        //     isScrollable: true,
+        //     tabs: <Widget>[
+        //       Tab(
+        //         icon: Icon(Icons.cloud),
+        //         text: "Remote",
+        //       ),
+        //       Tab(icon: Icon(Icons.insert_drive_file), text: "Asset"),
+        //       Tab(icon: Icon(Icons.list), text: "List example"),
+        //     ],
+        //   ),
+        // ),
+        body: Container(
+        decoration: BoxDecoration(
+          color: Colors.purple.shade200,
         ),
-        body: TabBarView(
-          children: <Widget>[
-            _BumbleBeeRemoteVideo(),
-            // _ButterFlyAssetVideo(),
-            // _ButterFlyAssetVideoInList(),
-          ],
+        child: _BumbleBeeRemoteVideo(),
+
         ),
       ),
     );
