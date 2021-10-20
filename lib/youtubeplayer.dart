@@ -1,7 +1,7 @@
 import 'package:video_player/video_player.dart';
 import 'package:flutter/material.dart';
 
-// void main() => runApp(YouTubePlayerScreen());
+void main() => runApp(YouTubePlayerScreen());
 
 class YouTubePlayerScreen extends StatefulWidget {
   @override
