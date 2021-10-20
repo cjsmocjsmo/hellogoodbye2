@@ -9,7 +9,7 @@ class YouTubePlayerScreen extends StatefulWidget {
 }
 
 class _YouTubePlayerScreenState extends State<YouTubePlayerScreen> {
-  VideoPlayerController _controller;
+  // VideoPlayerController _controller;
 
   @override
   void initState() {
