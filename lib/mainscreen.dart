@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'cdadview.dart';
 import 'tobbyview.dart';
 import 'texastrip.dart';
+import 'videoplayerscreen.dart';
 
 // import 'package:http/http.dart' as http;
 // import 'dart:convert';
@@ -98,7 +99,23 @@ class MainScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              
+
+              Expanded(
+                child: Container(
+                  height: 200.0,
+                  width: 200.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
+                      );
+                    },
+                    // child: Image.asset("images/circalthumb/p4CThumb.png")
+                    child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                  ),
+                ),
+              ),
           
           ]
         ),
