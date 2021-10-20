@@ -53,6 +53,7 @@ class YouTubePlayerScreen extends StatelessWidget {
 
         ),
       ),
+      ),
     );
   }
 }
