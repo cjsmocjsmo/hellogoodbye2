@@ -84,7 +84,9 @@ class MainScreen extends StatelessWidget {
                   
                 ],
               ),
-              Row(
+            Padding(
+              padding: EdgeInsets.fromLTRB(0.0, 2.0, 0.0, 2.0);
+              child: Row(
                 children: <Widget>[
                   Expanded(
                     child: Container(
@@ -148,7 +150,7 @@ class MainScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              
+            ), 
               
               
           
