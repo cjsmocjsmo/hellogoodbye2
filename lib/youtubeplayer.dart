@@ -199,19 +199,19 @@ class _BumbleBeeRemoteVideo extends StatefulWidget {
 class _BumbleBeeRemoteVideoState extends State<_BumbleBeeRemoteVideo> {
   late VideoPlayerController _controller;
 
-  Future<ClosedCaptionFile> _loadCaptions() async {
-    final String fileContents = await DefaultAssetBundle.of(context)
-        .loadString('assets/bumble_bee_captions.vtt');
-    return WebVTTCaptionFile(
-        fileContents); // For vtt files, use WebVTTCaptionFile
-  }
+  // Future<ClosedCaptionFile> _loadCaptions() async {
+  //   final String fileContents = await DefaultAssetBundle.of(context)
+  //       .loadString('assets/bumble_bee_captions.vtt');
+  //   return WebVTTCaptionFile(
+  //       fileContents); // For vtt files, use WebVTTCaptionFile
+  // }
 
   @override
   void initState() {
     super.initState();
     _controller = VideoPlayerController.network(
       'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
-      closedCaptionFile: _loadCaptions(),
+      // closedCaptionFile: _loadCaptions(),
       videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
     );
 
