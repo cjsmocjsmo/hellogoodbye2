@@ -5,6 +5,8 @@ import 'texastrip.dart';
 import 'videoplayerscreen.dart';
 import 'youtubeplayer.dart';
 
+import 'vid2videoplayerscreen.dart';
+
 // import 'package:http/http.dart' as http;
 // import 'dart:convert';
 // import 'maincolumn.dart';
@@ -112,7 +114,7 @@ class MainScreen extends StatelessWidget {
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
+                            MaterialPageRoute(builder: (context) => Vid2VideoPlayerScreen()),
                           );
                         },
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
