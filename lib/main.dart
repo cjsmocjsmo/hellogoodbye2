@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'mainscreen.dart';
 import 'cdadview.dart';
 import 'texastrip.dart';
+import 'videoplayerscreen.dart';
 
 void main() => runApp(Family());
 
@@ -15,6 +16,7 @@ class Family extends StatelessWidget {
       '/': (context) => MainScreen(),
       '/CDad': (context) => CDadView(),
       '/TexasTrip': (context) => TexasTripView(),
+      '/Vid': (context) => VideoPlayerScreen(),
     });
   }
 }
