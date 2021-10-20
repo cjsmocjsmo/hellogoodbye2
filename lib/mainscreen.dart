@@ -103,6 +103,46 @@ class MainScreen extends StatelessWidget {
                       ),
                     ),
                   ),
+                  Expanded(
+                    child: Container(
+                      height: 200.0,
+                      width: 200.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
+                          );
+                        },
+                        // child: Image.asset("images/circalthumb/p4CThumb.png")
+                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                        child: CircleAvatar(
+                          backgroundColor: Colors.brown.shade800,
+                          child: const Text('Vid2'),
+                        )
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      height: 200.0,
+                      width: 200.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
+                          );
+                        },
+                        // child: Image.asset("images/circalthumb/p4CThumb.png")
+                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                        child: CircleAvatar(
+                          backgroundColor: Colors.brown.shade800,
+                          child: const Text('Vid3'),
+                        )
+                      ),
+                    ),
+                  ),
                 ],
               ),
               
