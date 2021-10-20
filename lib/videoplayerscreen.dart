@@ -78,7 +78,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             //   // Use the VideoPlayer widget to display the video.
             //   child: 
               Center(child: VideoPlayer(_controller)),
-            );
+            // );
           } else {
             // If the VideoPlayerController is still initializing, show a
             // loading spinner.
