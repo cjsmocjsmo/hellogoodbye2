@@ -97,7 +97,7 @@ class MainScreen extends StatelessWidget {
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
                         // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                         child: CircleAvatar(
-                          backgroundColor: Colors.brown.shade800,
+                          backgroundColor: Colors.green.shade800,
                           child: const Text('Zero', style: TextStyle(fontSize: 18)),
                         )
                       ),
@@ -117,7 +117,7 @@ class MainScreen extends StatelessWidget {
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
                         // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                         child: CircleAvatar(
-                          backgroundColor: Colors.brown.shade800,
+                          backgroundColor: Colors.lime.shade400,
                           child: const Text('Vid2', style: TextStyle(fontSize: 18)),
                         )
                       ),
