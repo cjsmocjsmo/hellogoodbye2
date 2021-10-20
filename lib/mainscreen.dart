@@ -131,7 +131,7 @@ class MainScreen extends StatelessWidget {
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
+                            MaterialPageRoute(builder: (context) => YouTubePlayerScreen()),
                           );
                         },
                         // child: Image.asset("images/circalthumb/p4CThumb.png")

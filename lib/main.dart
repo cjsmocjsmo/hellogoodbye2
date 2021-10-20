@@ -3,6 +3,7 @@ import 'mainscreen.dart';
 import 'cdadview.dart';
 import 'texastrip.dart';
 import 'videoplayerscreen.dart';
+import 'youtubeplayer.dart';
 
 void main() => runApp(Family());
 
@@ -17,6 +18,7 @@ class Family extends StatelessWidget {
       '/CDad': (context) => CDadView(),
       '/TexasTrip': (context) => TexasTripView(),
       '/Vid': (context) => VideoPlayerScreen(),
+      '/YTPlayer': (context) => YouTubePlayerScreen(),
     });
   }
 }
