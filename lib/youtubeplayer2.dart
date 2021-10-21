@@ -53,11 +53,13 @@ class _YoutubeAppDemoState extends State<YoutubeAppDemo> {
       initialVideoId: 'Wy2818Jq2Nw',
       params: const YoutubePlayerParams(
         playlist: [
+          'Wy2818Jq2Nw',
           '_b2oRXJPR_A',
           'gthpd2HNus8',
-          'tpgzBCI',
+          'HQv-tpgzBCI',
           '0Tgv2y_qVNQ',
           'Qp8EZr5hyrs',
+
         ],
         startAt: const Duration(minutes: 1, seconds: 36),
         showControls: true,
