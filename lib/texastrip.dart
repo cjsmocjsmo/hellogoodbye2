@@ -340,7 +340,7 @@ Future<void> _zoomPage(String apath, BuildContext context) {
       builder: (BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          title: Text("Family Up Close"),
+          title: Text("The Trip Up Close"),
           backgroundColor: Colors.purple.shade700,
         ),
         body: Container(
