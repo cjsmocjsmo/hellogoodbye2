@@ -54,10 +54,13 @@ class _YoutubeAppDemoState extends State<YoutubeAppDemo> {
       params: const YoutubePlayerParams(
         playlist: [
           '_b2oRXJPR_A',
-          '_b2oRXJPR_A',
-          'iLnmTe5Q2Qw',
+          'gthpd2HNus8',
+          'tpgzBCI',
+          '0Tgv2y_qVNQ',
+          'Qp8EZr5hyrs',
+          
+
           '_WoCV4c6XOE',
-          'KmzdUe0RSJo',
           '6jZDSSZZxjQ',
           'p2lYr3vM_1w',
           '7QUtEmBT_-w',
