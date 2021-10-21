@@ -50,7 +50,7 @@ class _YoutubeAppDemoState extends State<YoutubeAppDemo> {
   void initState() {
     super.initState();
     _controller = YoutubePlayerController(
-      initialVideoId: '_b2oRXJPR_A',
+      initialVideoId: 'Wy2818Jq2Nw',
       params: const YoutubePlayerParams(
         playlist: [
           '_b2oRXJPR_A',
@@ -58,7 +58,6 @@ class _YoutubeAppDemoState extends State<YoutubeAppDemo> {
           'tpgzBCI',
           '0Tgv2y_qVNQ',
           'Qp8EZr5hyrs',
-          'Wy2818Jq2Nw',
         ],
         startAt: const Duration(minutes: 1, seconds: 36),
         showControls: true,
