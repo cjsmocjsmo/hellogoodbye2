@@ -26,6 +26,7 @@ dependencies:
   # transparent_image: ^2.0.0
   photo_view:
   video_player:
+  youtube_player_flutter: ^7.0.0+7
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -36,7 +37,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   video_player:
-  # youtube_player_flutter: ^7.0.0+7
+  youtube_player_flutter: ^7.0.0+7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
