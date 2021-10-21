@@ -53,8 +53,8 @@ class _YoutubeAppDemoState extends State<YoutubeAppDemo> {
       initialVideoId: '_b2oRXJPR_A',
       params: const YoutubePlayerParams(
         playlist: [
-          'nPt8bK2gbaU',
-          'K18cpp_-gP8',
+          '_b2oRXJPR_A',
+          '_b2oRXJPR_A',
           'iLnmTe5Q2Qw',
           '_WoCV4c6XOE',
           'KmzdUe0RSJo',
