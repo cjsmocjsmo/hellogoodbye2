@@ -4,7 +4,7 @@ import 'tobbyview.dart';
 import 'texastrip.dart';
 import 'videoplayerscreen.dart';
 import 'youtubeplayer.dart';
-
+import 'youtubeplayer2.dart';
 import 'vid2videoplayerscreen.dart';
 
 // import 'package:http/http.dart' as http;
@@ -139,6 +139,26 @@ class MainScreen extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(builder: (context) => YouTubePlayerScreen()),
+                          );
+                        },
+                        // child: Image.asset("images/circalthumb/p4CThumb.png")
+                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                        child: CircleAvatar(
+                          backgroundColor: Colors.indigo.shade800,
+                          child: const Text('Vid3', style: TextStyle(fontSize: 18)),
+                        )
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      height: 100.0,
+                      width: 100.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
                           );
                         },
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
