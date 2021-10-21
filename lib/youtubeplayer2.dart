@@ -9,11 +9,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
-// import 'widgets/meta_data_section.dart';
-// import 'widgets/play_pause_button_bar.dart';
-// import 'widgets/player_state_section.dart';
-// import 'widgets/source_input_section.dart';
-// import 'widgets/volume_slider.dart';
+import 'widgets/meta_data_section.dart';
+import 'widgets/play_pause_button_bar.dart';
+import 'widgets/player_state_section.dart';
+import 'widgets/source_input_section.dart';
+import 'widgets/volume_slider.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
