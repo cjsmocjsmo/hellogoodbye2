@@ -172,8 +172,7 @@ class Controls extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _space,
-          MetaDataSection(),
+          
           // _space,
           // SourceInputSection(),
           _space,
@@ -182,6 +181,8 @@ class Controls extends StatelessWidget {
           VolumeSlider(),
           _space,
           PlayerStateSection(),
+          _space,
+          MetaDataSection(),
         ],
       ),
     );
