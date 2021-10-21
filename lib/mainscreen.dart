@@ -165,7 +165,7 @@ class MainScreen extends StatelessWidget {
                         // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                         child: CircleAvatar(
                           backgroundColor: Colors.indigo.shade800,
-                          child: const Text('Vid3', style: TextStyle(fontSize: 18)),
+                          child: const Text('Videos', style: TextStyle(fontSize: 18)),
                         )
                       ),
                     ),
