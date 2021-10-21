@@ -17,11 +17,11 @@ import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(YoutubeApp());
+  runApp(YouTubePlayerScreen());
 }
 
 ///
-class YoutubeApp extends StatelessWidget {
+class YouTubePlayerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
