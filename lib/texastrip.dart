@@ -313,7 +313,7 @@ class TexasTripView extends StatelessWidget{
         ),
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-            maxCrossAxisExtent: 100,
+            maxCrossAxisExtent: 300,
             childAspectRatio: 3 / 2,
             crossAxisSpacing: 20,
             mainAxisSpacing: 20),
