@@ -171,10 +171,10 @@ class Controls extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _space,
-          MetaDataSection(),
-          _space,
-          SourceInputSection(),
+          // _space,
+          // MetaDataSection(),
+          // _space,
+          // SourceInputSection(),
           _space,
           PlayPauseButtonBar(),
           _space,
