@@ -50,7 +50,7 @@ class _YoutubeAppDemoState extends State<YoutubeAppDemo> {
   void initState() {
     super.initState();
     _controller = YoutubePlayerController(
-      initialVideoId: 'gthpd2HNus8',
+      initialVideoId: '_b2oRXJPR_A',
       params: const YoutubePlayerParams(
         playlist: [
           '_b2oRXJPR_A',
@@ -172,8 +172,8 @@ class Controls extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // _space,
-          // MetaDataSection(),
+          _space,
+          MetaDataSection(),
           // _space,
           // SourceInputSection(),
           _space,
