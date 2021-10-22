@@ -209,18 +209,18 @@ class _BumbleBeeRemoteVideoState extends State<_BumbleBeeRemoteVideo> {
   @override
   void initState() {
     super.initState();
-    // _controller = VideoPlayerController.network(
-    //   'https://youtu.be/_b2oRXJPR_A',
-    //   // 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
-    //   // closedCaptionFile: _loadCaptions(),
-    //   videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
-    // );
-    _controller = VideoPlayerController.asset(
-      'images/20210722_185148copy.mp4',
+    _controller = VideoPlayerController.network(
+      'https://youtu.be/_b2oRXJPR_A',
       // 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       // closedCaptionFile: _loadCaptions(),
       videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
     );
+    // _controller = VideoPlayerController.asset(
+    //   'images/20210722_185148copy.mp4',
+    //   // 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+    //   // closedCaptionFile: _loadCaptions(),
+    //   videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
+    // );
 
     _controller.addListener(() {
       setState(() {});
