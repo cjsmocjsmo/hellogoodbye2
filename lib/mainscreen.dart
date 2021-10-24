@@ -1,3 +1,4 @@
+import 'dart:js' as js;
 import 'package:flutter/material.dart';
 import 'cdadview.dart';
 import 'tobbyview.dart';
@@ -71,10 +72,11 @@ class MainScreen extends StatelessWidget {
                       width: 200.0,
                       child: GestureDetector(
                         onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => TexasTripView()),
-                          );
+                          js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                          // Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(builder: (context) => TexasTripView()),
+                          // );
                         },
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
                         child: Image.asset("images/circalthumb/TexasTripCThumb.png")
@@ -130,26 +132,26 @@ class MainScreen extends StatelessWidget {
                   //     ),
                   //   ),
                   // ),
-                  Expanded(
-                    child: Container(
-                      height: 100.0,
-                      width: 100.0,
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => YouTubePlayerScreen()),
-                          );
-                        },
-                        // child: Image.asset("images/circalthumb/p4CThumb.png")
-                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                        child: CircleAvatar(
-                          backgroundColor: Colors.indigo.shade800,
-                          child: const Text('Vid3', style: TextStyle(fontSize: 18)),
-                        )
-                      ),
-                    ),
-                  ),
+                  // Expanded(
+                  //   child: Container(
+                  //     height: 100.0,
+                  //     width: 100.0,
+                  //     child: GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.push(
+                  //           context,
+                  //           MaterialPageRoute(builder: (context) => YouTubePlayerScreen()),
+                  //         );
+                  //       },
+                  //       // child: Image.asset("images/circalthumb/p4CThumb.png")
+                  //       // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                  //       child: CircleAvatar(
+                  //         backgroundColor: Colors.indigo.shade800,
+                  //         child: const Text('Vid3', style: TextStyle(fontSize: 18)),
+                  //       )
+                  //     ),
+                  //   ),
+                  // ),
                   Expanded(
                     child: Container(
                       height: 100.0,
