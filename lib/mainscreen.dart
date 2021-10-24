@@ -72,11 +72,11 @@ class MainScreen extends StatelessWidget {
                       width: 200.0,
                       child: GestureDetector(
                         onTap: () {
-                          js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
-                          // Navigator.push(
-                          //   context,
-                          //   MaterialPageRoute(builder: (context) => TexasTripView()),
-                          // );
+                          // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => TexasTripView()),
+                          );
                         },
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
                         child: Image.asset("images/circalthumb/TexasTripCThumb.png")
@@ -158,10 +158,11 @@ class MainScreen extends StatelessWidget {
                       width: 100.0,
                       child: GestureDetector(
                         onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
-                          );
+                           js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                          // Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
+                          // );
                         },
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
                         // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
