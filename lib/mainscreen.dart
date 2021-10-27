@@ -8,12 +8,6 @@ import 'youtubeplayer.dart';
 import 'youtubeplayer2.dart';
 import 'vid2videoplayerscreen.dart';
 
-// import 'package:http/http.dart' as http;
-// import 'dart:convert';
-// import 'maincolumn.dart';
-// import 'cameras/pc1view.dart';
-// import 'cameras/pc2view.dart';
-
 class MainScreen extends StatelessWidget {
 
   @override
@@ -60,31 +54,10 @@ class MainScreen extends StatelessWidget {
                             MaterialPageRoute(builder: (context) => TobbyView()),
                           );
                         },
-                        // child: Image.asset("images/circalthumb/p4CThumb.png")
                         child: Image.asset("images/circalthumb/p4CThumb.png")
                       ),
                     ),
                   ),
-                  
-                  Expanded(
-                    child: Container(
-                      height: 200.0,
-                      width: 200.0,
-                      child: GestureDetector(
-                        onTap: () {
-                          // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => TexasTripView()),
-                          );
-                        },
-                        // child: Image.asset("images/circalthumb/p4CThumb.png")
-                        child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                      ),
-                    ),
-                  ),
-
-                  
                 ],
               ),
             ),
@@ -92,26 +65,44 @@ class MainScreen extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
               child: Row(
                 children: <Widget>[
-                  // Expanded(
-                  //   child: Container(
-                  //     height: 100.0,
-                  //     width: 100.0,
-                  //     child: GestureDetector(
-                  //       onTap: () {
-                  //         Navigator.push(
-                  //           context,
-                  //           MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
-                  //         );
-                  //       },
-                  //       // child: Image.asset("images/circalthumb/p4CThumb.png")
-                  //       // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                  //       child: CircleAvatar(
-                  //         backgroundColor: Colors.green.shade800,
-                  //         child: const Text('Zero', style: TextStyle(fontSize: 25)),
-                  //       )
-                  //     ),
-                  //   ),
-                  // ),
+                  Expanded(
+                    child: Container(
+                      height: 200.0,
+                      width: 200.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => JoetteVisitView()),
+                          );
+                        },
+                        child: Image.asset("images/circalthumb/circalAvatar2.png")
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      height: 100.0,
+                      width: 100.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
+                          );
+                        },
+                        // child: Image.asset("images/circalthumb/p4CThumb.png")
+                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                        child: CircleAvatar(
+                          backgroundColor: Colors.green.shade800,
+                          child: const Text('Zero', style: TextStyle(fontSize: 25)),
+                        )
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
                   // Expanded(
                   //   child: Container(
                   //     height: 100.0,
@@ -152,6 +143,10 @@ class MainScreen extends StatelessWidget {
                   //     ),
                   //   ),
                   // ),
+            Padding(
+              padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
+              child: Row(
+                children: <Widget>[  
                   Expanded(
                     child: Container(
                       height: 100.0,

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'mainscreen.dart';
 import 'cdadview.dart';
 import 'texastrip.dart';
+import 'joettevisit.dart';
 import 'videoplayerscreen.dart';
 import 'youtubeplayer.dart';
 
@@ -19,6 +20,7 @@ class Family extends StatelessWidget {
       '/TexasTrip': (context) => TexasTripView(),
       '/Vid': (context) => VideoPlayerScreen(),
       '/YTPlayer': (context) => YouTubePlayerScreen(),
+      '/JoetteVisit': (context) => JoetteVisit(),
     });
   }
 }
