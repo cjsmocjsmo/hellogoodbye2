@@ -22,7 +22,6 @@ class MainScreen extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.purple[300],
           ),
-          child: Center(
           child: Expanded(
             child: Column(
             children: <Widget>[
@@ -153,7 +152,7 @@ class MainScreen extends StatelessWidget {
           ]
           ),
           ),
-        ),
+        // ),
       ),
     );
   }
