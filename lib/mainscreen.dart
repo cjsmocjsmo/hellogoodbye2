@@ -68,7 +68,7 @@ class MainScreen extends StatelessWidget {
                   children: <Widget>[
                     Expanded(
                       child: Container(
-                        height: 1900.0,
+                        height: 190.0,
                         width: 190.0,
                         child: GestureDetector(
                           onTap: () {
