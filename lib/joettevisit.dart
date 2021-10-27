@@ -137,7 +137,7 @@ class JoetteVisitView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Joette Trip"),
+        title: Text("J & C Trip"),
         backgroundColor: Colors.purple.shade700,
       ),
       body: Container(
@@ -173,7 +173,7 @@ Future<void> _zoomPage(String apath, BuildContext context) {
       builder: (BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          title: Text("The Trip Up Close"),
+          title: Text("J & C Trip Up Close"),
           backgroundColor: Colors.purple.shade700,
         ),
         body: Container(

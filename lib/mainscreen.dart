@@ -132,10 +132,11 @@ class MainScreen extends StatelessWidget {
                   ],
                 ),
               ),
-            
-              Expanded(
-                child: Text("When viewing videos use fullscreen it is much better")
-              )
+              Center(
+                child: Expanded(
+                  child: const Text("When viewing videos use fullscreen it is much better", style: TextStyle(fontSize: 18)),
+                ),
+              ),
             ],
           ),
       ),
