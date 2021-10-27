@@ -107,9 +107,7 @@ class MainScreen extends StatelessWidget {
 
 
                   
-                ],
-              ),
-            ),
+
                   Expanded(
                     child: Container(
                       height: 100.0,
@@ -129,6 +127,9 @@ class MainScreen extends StatelessWidget {
                         )
                       ),
                     ),
+                  ],
+                ),
+            
                   ),
                   // Expanded(
                   //   child: Container(
