@@ -23,9 +23,7 @@ class MainScreen extends StatelessWidget {
             color: Colors.purple[300],
           ),
           child: Center(
-          child: Expanded(
-
-            child: Column(
+          child: Column(
             children: <Widget>[
             Padding(
               padding: EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 10.0),
@@ -180,12 +178,14 @@ class MainScreen extends StatelessWidget {
                 ],
               ),
             ),
-          
-            // Text("When viewing videos use fullscreen it is much better")
+          Expanded(
+            child: Text("When viewing videos use fullscreen it is much better")
+          )
+            
               
           
           ];
-            ),
+          
         ),
         ),
       )
