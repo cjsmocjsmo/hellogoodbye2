@@ -23,7 +23,8 @@ class MainScreen extends StatelessWidget {
             color: Colors.purple[300],
           ),
           child: Center(
-          child: Column(
+          child: Expanded(
+            child: Column(
             children: <Widget>[
             Padding(
               padding: EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 10.0),
@@ -67,26 +68,7 @@ class MainScreen extends StatelessWidget {
               child: Row(
                 children: <Widget>[
 
-                  // Expanded(
-                  //   child: Container(
-                  //     height: 100.0,
-                  //     width: 100.0,
-                  //     child: GestureDetector(
-                  //       onTap: () {
-                  //         Navigator.push(
-                  //           context,
-                  //           MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
-                  //         );
-                  //       },
-                  //       // child: Image.asset("images/circalthumb/p4CThumb.png")
-                  //       // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                  //       child: CircleAvatar(
-                  //         backgroundColor: Colors.green.shade800,
-                  //         child: const Text('Zero', style: TextStyle(fontSize: 25)),
-                  //       )
-                  //     ),
-                  //   ),
-                  // ),
+
 
 
                   Expanded(
@@ -116,15 +98,15 @@ class MainScreen extends StatelessWidget {
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => Vid2VideoPlayerScreen()),
+                            MaterialPageRoute(builder: (context) => TexasTripView()),
                           );
                         },
                         // child: Image.asset("images/circalthumb/p4CThumb.png")
-                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                        child: CircleAvatar(
-                          backgroundColor: Colors.limeAccent.shade700,
-                          child: const Text('Vid2', style: TextStyle(fontSize: 18)),
-                        )
+                        child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                        // child: CircleAvatar(
+                        //   backgroundColor: Colors.limeAccent.shade700,
+                        //   child: const Text('Vid2', style: TextStyle(fontSize: 18)),
+                        // )
                       ),
                     ),
                   ),
@@ -132,26 +114,7 @@ class MainScreen extends StatelessWidget {
                 ),
             
                   ),
-                  // Expanded(
-                  //   child: Container(
-                  //     height: 100.0,
-                  //     width: 100.0,
-                  //     child: GestureDetector(
-                  //       onTap: () {
-                  //         Navigator.push(
-                  //           context,
-                  //           MaterialPageRoute(builder: (context) => YouTubePlayerScreen()),
-                  //         );
-                  //       },
-                  //       // child: Image.asset("images/circalthumb/p4CThumb.png")
-                  //       // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                  //       child: CircleAvatar(
-                  //         backgroundColor: Colors.indigo.shade800,
-                  //         child: const Text('Vid3', style: TextStyle(fontSize: 18)),
-                  //       )
-                  //     ),
-                  //   ),
-                  // ),
+
             Padding(
               padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
               child: Row(
@@ -180,14 +143,15 @@ class MainScreen extends StatelessWidget {
                 ],
               ),
             ),
-          Expanded(
-            child: Text("When viewing videos use fullscreen it is much better")
-          )
+            Expanded(
+              child: Text("When viewing videos use fullscreen it is much better")
+            )
             
               
           
 
           ]
+          ),
           ),
         ),
       ),
