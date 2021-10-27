@@ -23,6 +23,8 @@ class MainScreen extends StatelessWidget {
             color: Colors.purple[300],
           ),
           child: Center(
+          child: Expanded(
+
             child: Column(
             children: <Widget>[
             Padding(
@@ -66,22 +68,6 @@ class MainScreen extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
               child: Row(
                 children: <Widget>[
-                  Expanded(
-                    child: Container(
-                      height: 200.0,
-                      width: 200.0,
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => JoetteVisitView()),
-                          );
-                        },
-                        child: Image.asset("images/circalthumb/circalAvatar2.png")
-                      ),
-                    ),
-                  ),
-
 
                   // Expanded(
                   //   child: Container(
@@ -103,6 +89,26 @@ class MainScreen extends StatelessWidget {
                   //     ),
                   //   ),
                   // ),
+
+
+                  Expanded(
+                    child: Container(
+                      height: 200.0,
+                      width: 200.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => JoetteVisitView()),
+                          );
+                        },
+                        child: Image.asset("images/circalthumb/circalAvatar2.png")
+                      ),
+                    ),
+                  ),
+
+
+                  
                 ],
               ),
             ),
@@ -146,8 +152,7 @@ class MainScreen extends StatelessWidget {
                   //     ),
                   //   ),
                   // ),
-          Expanded(
-            child: Padding(
+            Padding(
               padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
               child: Row(
                 children: <Widget>[  
@@ -175,11 +180,12 @@ class MainScreen extends StatelessWidget {
                 ],
               ),
             ),
-          ),
+          
             Text("When viewing videos use fullscreen it is much better")
               
           
-          ]
+          ];
+            ),
         ),
         ),
       )
