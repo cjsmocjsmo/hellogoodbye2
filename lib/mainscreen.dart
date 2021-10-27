@@ -127,6 +127,7 @@ class MainScreen extends StatelessWidget {
                         )
                       ),
                     ),
+                  ),
                   ],
                 ),
             
