@@ -81,26 +81,28 @@ class MainScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Expanded(
-                    child: Container(
-                      height: 100.0,
-                      width: 100.0,
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
-                          );
-                        },
-                        // child: Image.asset("images/circalthumb/p4CThumb.png")
-                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                        child: CircleAvatar(
-                          backgroundColor: Colors.green.shade800,
-                          child: const Text('Zero', style: TextStyle(fontSize: 25)),
-                        )
-                      ),
-                    ),
-                  ),
+
+                  
+                  // Expanded(
+                  //   child: Container(
+                  //     height: 100.0,
+                  //     width: 100.0,
+                  //     child: GestureDetector(
+                  //       onTap: () {
+                  //         Navigator.push(
+                  //           context,
+                  //           MaterialPageRoute(builder: (context) => VideoPlayerScreen()),
+                  //         );
+                  //       },
+                  //       // child: Image.asset("images/circalthumb/p4CThumb.png")
+                  //       // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                  //       child: CircleAvatar(
+                  //         backgroundColor: Colors.green.shade800,
+                  //         child: const Text('Zero', style: TextStyle(fontSize: 25)),
+                  //       )
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
             ),
