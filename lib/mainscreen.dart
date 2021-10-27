@@ -113,7 +113,7 @@ class MainScreen extends StatelessWidget {
             
                   ),
           Expanded(
-            Padding(
+            child: Padding(
               padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
               child: Row(
                 children: <Widget>[  
