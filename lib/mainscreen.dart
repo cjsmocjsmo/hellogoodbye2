@@ -22,136 +22,122 @@ class MainScreen extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.purple[300],
           ),
-          child: Column(
+          child: ListView(
+            padding: const EdgeInsets.all(8),
             children: <Widget>[
-            Padding(
-              padding: EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 10.0),
-              child: Row(
-                children: <Widget>[
-                  Expanded(
-                    child: Container(
-                      height: 200.0,
-                      width: 200.0,
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => CDadView()),
-                          );
-                        },
-                        child: Image.asset("images/circalthumb/d1CThumb.png")
+              Padding(
+                padding: EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 10.0),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Container(
+                        height: 200.0,
+                        width: 200.0,
+                        child: GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => CDadView()),
+                            );
+                          },
+                          child: Image.asset("images/circalthumb/d1CThumb.png")
+                        ),
                       ),
                     ),
-                  ),
-                  Expanded(
-                    child: Container(
-                      height: 200.0,
-                      width: 200.0,
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => TobbyView()),
-                          );
-                        },
-                        child: Image.asset("images/circalthumb/p4CThumb.png")
+                    Expanded(
+                      child: Container(
+                        height: 200.0,
+                        width: 200.0,
+                        child: GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => TobbyView()),
+                            );
+                          },
+                          child: Image.asset("images/circalthumb/p4CThumb.png")
+                        ),
                       ),
                     ),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
-              child: Row(
-                children: <Widget>[
-
-
-
-
-                  Expanded(
-                    child: Container(
-                      height: 200.0,
-                      width: 200.0,
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => JoetteVisitView()),
-                          );
-                        },
-                        child: Image.asset("images/circalthumb/circalAvatar2.png")
-                      ),
-                    ),
-                  ),
-
-
-                  
-
-                  Expanded(
-                    child: Container(
-                      height: 100.0,
-                      width: 100.0,
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => TexasTripView()),
-                          );
-                        },
-                        // child: Image.asset("images/circalthumb/p4CThumb.png")
-                        child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                        // child: CircleAvatar(
-                        //   backgroundColor: Colors.limeAccent.shade700,
-                        //   child: const Text('Vid2', style: TextStyle(fontSize: 18)),
-                        // )
-                      ),
-                    ),
-                  ),
                   ],
                 ),
-            
-                  ),
-          Expanded(
-            child: Padding(
-              padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
-              child: Row(
-                children: <Widget>[  
-                  Expanded(
-                    child: Container(
-                      height: 100.0,
-                      width: 100.0,
-                      child: GestureDetector(
-                        onTap: () {
-                           js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
-                          // Navigator.push(
-                          //   context,
-                          //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
-                          // );
-                        },
-                        // child: Image.asset("images/circalthumb/p4CThumb.png")
-                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                        child: CircleAvatar(
-                          backgroundColor: Colors.indigo.shade800,
-                          child: const Text('Videos', style: TextStyle(fontSize: 18)),
-                        )
+              ),
+              Padding(
+                padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Container(
+                        height: 200.0,
+                        width: 200.0,
+                        child: GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => JoetteVisitView()),
+                            );
+                          },
+                          child: Image.asset("images/circalthumb/circalAvatar2.png")
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                    Expanded(
+                      child: Container(
+                        height: 100.0,
+                        width: 100.0,
+                        child: GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => TexasTripView()),
+                            );
+                          },
+                          // child: Image.asset("images/circalthumb/p4CThumb.png")
+                          child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                          // child: CircleAvatar(
+                          //   backgroundColor: Colors.limeAccent.shade700,
+                          //   child: const Text('Vid2', style: TextStyle(fontSize: 18)),
+                          // )
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
-          ),
-            Expanded(
-              child: Text("When viewing videos use fullscreen it is much better")
-            )
+              Padding(
+                padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
+                child: Row(
+                  children: <Widget>[  
+                    Expanded(
+                      child: Container(
+                        height: 100.0,
+                        width: 100.0,
+                        child: GestureDetector(
+                          onTap: () {
+                            js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                            // Navigator.push(
+                            //   context,
+                            //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
+                            // );
+                          },
+                          // child: Image.asset("images/circalthumb/p4CThumb.png")
+                          // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                          child: CircleAvatar(
+                            backgroundColor: Colors.indigo.shade800,
+                            child: const Text('Videos', style: TextStyle(fontSize: 18)),
+                          )
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             
-              
-          
-
-          ]
+              Expanded(
+                child: Text("When viewing videos use fullscreen it is much better")
+              )
+            ],
           ),
-         
       ),
     );
   }
