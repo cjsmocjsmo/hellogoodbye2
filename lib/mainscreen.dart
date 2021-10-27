@@ -82,7 +82,7 @@ class MainScreen extends StatelessWidget {
                     ),
                   ),
 
-                  
+
                   // Expanded(
                   //   child: Container(
                   //     height: 100.0,
@@ -146,7 +146,8 @@ class MainScreen extends StatelessWidget {
                   //     ),
                   //   ),
                   // ),
-            Padding(
+          Expanded(
+            child: Padding(
               padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
               child: Row(
                 children: <Widget>[  
@@ -173,7 +174,8 @@ class MainScreen extends StatelessWidget {
                   ),
                 ],
               ),
-            ), 
+            ),
+          ),
             Text("When viewing videos use fullscreen it is much better")
               
           
