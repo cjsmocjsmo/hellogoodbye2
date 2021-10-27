@@ -124,7 +124,7 @@ class MainScreen extends StatelessWidget {
                           // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                           child: CircleAvatar(
                             backgroundColor: Colors.indigo.shade800,
-                            child: const Text('Videos', style: TextStyle(fontSize: 18)),
+                            child: const Text('Videos', style: TextStyle(fontSize: 22)),
                           )
                         ),
                       ),
@@ -134,7 +134,7 @@ class MainScreen extends StatelessWidget {
               ),
               Center(
                 child: Expanded(
-                  child: const Text("When viewing videos use fullscreen it is much better", style: TextStyle(fontSize: 18)),
+                  child: const Text("When viewing videos on a mobile device use fullscreen it's much better", style: TextStyle(fontSize: 18)),
                 ),
               ),
             ],
