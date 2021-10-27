@@ -20,7 +20,7 @@ class Family extends StatelessWidget {
       '/TexasTrip': (context) => TexasTripView(),
       '/Vid': (context) => VideoPlayerScreen(),
       '/YTPlayer': (context) => YouTubePlayerScreen(),
-      '/JoetteVisit': (context) => JoetteVisit(),
+      '/JoetteVisit': (context) => JoetteVisitView(),
     });
   }
 }

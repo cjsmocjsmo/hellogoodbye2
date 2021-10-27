@@ -128,7 +128,7 @@ List<Map> picmaplist = [
         "zoompage": 'images/JoetteVisit/20210623_070125_HDR-2.jpg', 
         "page": 'images/thumb/20210623_070125_HDR-2.jpg', 
     },
-]
+];
 
 
 class JoetteVisitView extends StatelessWidget{
