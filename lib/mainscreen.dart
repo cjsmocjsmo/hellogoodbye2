@@ -110,26 +110,26 @@ class MainScreen extends StatelessWidget {
                 ],
               ),
             ),
-                  // Expanded(
-                  //   child: Container(
-                  //     height: 100.0,
-                  //     width: 100.0,
-                  //     child: GestureDetector(
-                  //       onTap: () {
-                  //         Navigator.push(
-                  //           context,
-                  //           MaterialPageRoute(builder: (context) => Vid2VideoPlayerScreen()),
-                  //         );
-                  //       },
-                  //       // child: Image.asset("images/circalthumb/p4CThumb.png")
-                  //       // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                  //       child: CircleAvatar(
-                  //         backgroundColor: Colors.limeAccent.shade700,
-                  //         child: const Text('Vid2', style: TextStyle(fontSize: 18)),
-                  //       )
-                  //     ),
-                  //   ),
-                  // ),
+                  Expanded(
+                    child: Container(
+                      height: 100.0,
+                      width: 100.0,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => Vid2VideoPlayerScreen()),
+                          );
+                        },
+                        // child: Image.asset("images/circalthumb/p4CThumb.png")
+                        // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                        child: CircleAvatar(
+                          backgroundColor: Colors.limeAccent.shade700,
+                          child: const Text('Vid2', style: TextStyle(fontSize: 18)),
+                        )
+                      ),
+                    ),
+                  ),
                   // Expanded(
                   //   child: Container(
                   //     height: 100.0,
