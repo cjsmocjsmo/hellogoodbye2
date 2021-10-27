@@ -184,7 +184,7 @@ class MainScreen extends StatelessWidget {
             Text("When viewing videos use fullscreen it is much better")
               
           
-          ];
+          ],
             ),
         ),
         ),
