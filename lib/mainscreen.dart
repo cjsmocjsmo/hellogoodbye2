@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'cdadview.dart';
 import 'tobbyview.dart';
 import 'texastrip.dart';
+import 'joettevisit.dart';
 import 'videoplayerscreen.dart';
 import 'youtubeplayer.dart';
 import 'youtubeplayer2.dart';
