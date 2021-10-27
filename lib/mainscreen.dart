@@ -68,8 +68,8 @@ class MainScreen extends StatelessWidget {
                   children: <Widget>[
                     Expanded(
                       child: Container(
-                        height: 200.0,
-                        width: 200.0,
+                        height: 1900.0,
+                        width: 190.0,
                         child: GestureDetector(
                           onTap: () {
                             Navigator.push(
@@ -83,8 +83,8 @@ class MainScreen extends StatelessWidget {
                     ),
                     Expanded(
                       child: Container(
-                        height: 100.0,
-                        width: 100.0,
+                        height: 200.0,
+                        width: 200.0,
                         child: GestureDetector(
                           onTap: () {
                             Navigator.push(
