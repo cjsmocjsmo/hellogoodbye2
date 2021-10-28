@@ -38,6 +38,7 @@ class MainScreen extends StatelessWidget {
                 ),
               
               Container(
+                constraints: BoxConstraints(minWidth: 100, maxWidth: 200),
                   height: 200.0,
                   width: 200.0,
                   child: GestureDetector(
@@ -60,7 +61,7 @@ class MainScreen extends StatelessWidget {
                   width: 190.0,
                   child: GestureDetector(
                     onTap: () {
-                      js.context.callMethod('open', ["https://d4d9603e.joettevisitsvelte.pages.dev"]);
+                      js.context.callMethod('open', ["https://d4d9603e.joettevisitsvelte.pages.dev"],'_self');
                       
 
 
@@ -96,6 +97,7 @@ class MainScreen extends StatelessWidget {
               
               
                 Container(
+                  constraints: BoxConstraints(minWidth: 100, maxWidth: 200),
                   height: 100.0,
                   width: 100.0,
                   child: GestureDetector(
