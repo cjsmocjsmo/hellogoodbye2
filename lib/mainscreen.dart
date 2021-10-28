@@ -20,7 +20,7 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(20),
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
-            crossAxisCount: 3,
+            crossAxisCount: 4,
             children: <Widget>[
           
               Container(
@@ -115,11 +115,11 @@ class MainScreen extends StatelessWidget {
                   ),
                 ),
              
-              Center(
-                child: Expanded(
-                  child: const Text("When viewing videos on a mobile device use fullscreen it's much better.  All 'Up Close' picture are zoomable.", style: TextStyle(fontSize: 18)),
-                ),
-              ),
+              // Center(
+              //   child: Expanded(
+              //     child: const Text("When viewing videos on a mobile device use fullscreen it's much better.  All 'Up Close' picture are zoomable.", style: TextStyle(fontSize: 18)),
+              //   ),
+              // ),
             ],
           ),
       ),
