@@ -122,7 +122,7 @@ class MainScreen extends StatelessWidget {
                 child: Expanded(
                   child: const Text("When viewing videos on a mobile device use fullscreen it's much better.  All 'Up Close' picture are zoomable.", style: TextStyle(fontSize: 18)),
                 ),
-              
+              ),
             ],
           ),
       ),
