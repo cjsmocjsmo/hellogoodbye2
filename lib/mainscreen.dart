@@ -128,27 +128,8 @@ class MainScreen extends StatelessWidget {
                     // child: Image.asset("images/circalthumb/p4CThumb.png")
                     // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                     child: CircleAvatar(
-                      backgroundColor: Colors.indigo.shade800,
-                      child: const Text('Empty', style: TextStyle(fontSize: 22)),
-                    )
-                  ),
-                ),
-                Container(
-                  height: 100.0,
-                  width: 100.0,
-                  child: GestureDetector(
-                    onTap: () {
-                      // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
-                      // );
-                    },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
-                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                    child: CircleAvatar(
-                      backgroundColor: Colors.indigo.shade800,
-                      child: const Text('Empty', style: TextStyle(fontSize: 22)),
+                      backgroundColor: Colors.purple[300],
+                      child: const Text(''),
                     )
                   ),
                 ),
@@ -167,7 +148,26 @@ class MainScreen extends StatelessWidget {
                     // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                     child: CircleAvatar(
                       backgroundColor: Colors.purple[300],
-                      child: const Text('', style: TextStyle(fontSize: 22)),
+                      child: const Text(''),
+                    )
+                  ),
+                ),
+                Container(
+                  height: 100.0,
+                  width: 100.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
+                      // );
+                    },
+                    // child: Image.asset("images/circalthumb/p4CThumb.png")
+                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                    child: CircleAvatar(
+                      backgroundColor: Colors.purple[300],
+                      child: const Text(''),
                     )
                   ),
                 ),
