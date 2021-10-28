@@ -50,10 +50,6 @@ class MainScreen extends StatelessWidget {
                     child: Image.asset("images/circalthumb/p4CThumb2.png")
                   ),
                 ),
-            
-                  
-                
-              
               
               Container(
                   height: 190.0,
@@ -81,9 +77,6 @@ class MainScreen extends StatelessWidget {
                   ),
                 ),
               
-              
-              
-              
                 Container(
                   height: 100.0,
                   width: 100.0,
@@ -103,12 +96,12 @@ class MainScreen extends StatelessWidget {
                     )
                   ),
                 ),
+
                 Container(
                   height: 100.0,
                   width: 100.0,
                   child: GestureDetector(
                     onTap: () {
-                      js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
                     },
                     child: CircleAvatar(
                       backgroundColor: Colors.purple[300],
@@ -116,19 +109,13 @@ class MainScreen extends StatelessWidget {
                     )
                   ),
                 ),
+
                 Container(
                   height: 100.0,
                   width: 100.0,
                   child: GestureDetector(
                     onTap: () {
-                      // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
-                      // );
                     },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
-                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                     child: CircleAvatar(
                       backgroundColor: Colors.purple[300],
                       child: const Text(''),
