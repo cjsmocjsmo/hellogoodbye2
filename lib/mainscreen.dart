@@ -54,7 +54,7 @@ class MainScreen extends StatelessWidget {
                         MaterialPageRoute(builder: (context) => TobbyView()),
                       );
                     },
-                    child: Image.asset("images/circalthumb/p4CThumb.png")
+                    child: Image.asset("images/circalthumb/p4CThumb2.png")
                   ),
                 ),
             
