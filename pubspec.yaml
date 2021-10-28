@@ -53,13 +53,6 @@ flutter:
   assets:
     - images/
     - images/circalthumb/
-    - images/thumb/
-    - images/Dad/
-    - images/Tobby/
-    - images/JoetteVisit/
-    - images/TexasTrip/
-    - images/TexasTrip/20211003/
-    - images/TexasTrip/20211010/
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

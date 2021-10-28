@@ -1,13 +1,6 @@
 import 'dart:js' as js;
 import 'package:flutter/material.dart';
-import 'cdadview.dart';
 import 'tobbyview.dart';
-import 'texastrip.dart';
-import 'joettevisit.dart';
-import 'videoplayerscreen.dart';
-import 'youtubeplayer.dart';
-import 'youtubeplayer2.dart';
-import 'vid2videoplayerscreen.dart';
 
 class MainScreen extends StatelessWidget {
 
@@ -35,10 +28,10 @@ class MainScreen extends StatelessWidget {
                   width: 200.0,
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => CDadView()),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => CDadView()),
+                      // );
                     },
                     child: Image.asset("images/circalthumb/d1CThumb.png")
                   ),
@@ -67,10 +60,10 @@ class MainScreen extends StatelessWidget {
                   width: 190.0,
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => JoetteVisitView()),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => JoetteVisitView()),
+                      // );
                     },
                     child: Image.asset("images/circalthumb/circalAvatar2.png")
                   ),
@@ -81,10 +74,10 @@ class MainScreen extends StatelessWidget {
                   width: 200.0,
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => TexasTripView()),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => TexasTripView()),
+                      // );
                     },
                     // child: Image.asset("images/circalthumb/p4CThumb.png")
                     child: Image.asset("images/circalthumb/TexasTripCThumb.png")
