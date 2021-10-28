@@ -97,9 +97,9 @@ class MainScreen extends StatelessWidget {
               
               
                 Container(
-                  constraints: BoxConstraints(minWidth: 100, maxWidth: 200),
-                  height: 100.0,
-                  width: 100.0,
+                  constraints: BoxConstraints(minWidth: 90, maxWidth: 100),
+                  // height: 100.0,
+                  // width: 100.0,
                   child: GestureDetector(
                     onTap: () {
                       js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
