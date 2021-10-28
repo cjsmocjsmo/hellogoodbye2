@@ -41,10 +41,10 @@ class MainScreen extends StatelessWidget {
                   width: 200.0,
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => TobbyView()),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => TobbyView()),
+                      // );
                     },
                     child: Image.asset("images/circalthumb/p4CThumb2.png")
                   ),
