@@ -20,7 +20,7 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(20),
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
-            crossAxisCount: 4,
+            crossAxisCount: 3,
             children: <Widget>[
           
               Container(
