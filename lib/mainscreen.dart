@@ -20,7 +20,7 @@ class MainScreen extends StatelessWidget {
             padding: const EdgeInsets.all(20),
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
-            crossAxisCount: 2,
+            crossAxisCount: 3,
             children: <Widget>[
           
               Container(
@@ -38,7 +38,6 @@ class MainScreen extends StatelessWidget {
                 ),
               
               Container(
-                constraints: BoxConstraints(minWidth: 100, maxWidth: 200),
                   height: 200.0,
                   width: 200.0,
                   child: GestureDetector(
@@ -97,9 +96,8 @@ class MainScreen extends StatelessWidget {
               
               
                 Container(
-                  constraints: BoxConstraints(minWidth: 90, maxWidth: 100),
-                  // height: 100.0,
-                  // width: 100.0,
+                  height: 100.0,
+                  width: 100.0,
                   child: GestureDetector(
                     onTap: () {
                       js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
