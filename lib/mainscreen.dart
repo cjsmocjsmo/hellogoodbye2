@@ -60,6 +60,10 @@ class MainScreen extends StatelessWidget {
                   width: 190.0,
                   child: GestureDetector(
                     onTap: () {
+                      js.context.callMethod('open', ["https://d4d9603e.joettevisitsvelte.pages.dev"]);
+                      
+
+
                       // Navigator.push(
                       //   context,
                       //   MaterialPageRoute(builder: (context) => JoetteVisitView()),
