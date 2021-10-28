@@ -27,6 +27,8 @@ class MainScreen extends StatelessWidget {
                   width: 200.0,
                   child: GestureDetector(
                     onTap: () {
+                      js.context.callMethod('open', ['https://dc951456.dadsvelte.pages.dev','_self']);
+                      
                       // Navigator.push(
                       //   context,
                       //   MaterialPageRoute(builder: (context) => CDadView()),
