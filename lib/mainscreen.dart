@@ -61,13 +61,6 @@ class MainScreen extends StatelessWidget {
                   child: GestureDetector(
                     onTap: () {
                       js.context.callMethod('open', ["https://d4d9603e.joettevisitsvelte.pages.dev",'_self']);
-                      
-
-
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => JoetteVisitView()),
-                      // );
                     },
                     child: Image.asset("images/circalthumb/circalAvatar2.png")
                   ),
@@ -85,10 +78,6 @@ class MainScreen extends StatelessWidget {
                     },
                     // child: Image.asset("images/circalthumb/p4CThumb.png")
                     child: Image.asset("images/circalthumb/TexasTripCThumb.png")
-                    // child: CircleAvatar(
-                    //   backgroundColor: Colors.limeAccent.shade700,
-                    //   child: const Text('Vid2', style: TextStyle(fontSize: 18)),
-                    // )
                   ),
                 ),
               
@@ -119,14 +108,8 @@ class MainScreen extends StatelessWidget {
                   width: 100.0,
                   child: GestureDetector(
                     onTap: () {
-                      // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
-                      // );
+                      js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
                     },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
-                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                     child: CircleAvatar(
                       backgroundColor: Colors.purple[300],
                       child: const Text(''),
