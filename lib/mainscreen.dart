@@ -30,8 +30,7 @@ class MainScreen extends StatelessWidget {
             crossAxisCount: 2,
             children: <Widget>[
           
-              Expanded(
-                child: Container(
+              Container(
                   height: 200.0,
                   width: 200.0,
                   child: GestureDetector(
@@ -44,9 +43,8 @@ class MainScreen extends StatelessWidget {
                     child: Image.asset("images/circalthumb/d1CThumb.png")
                   ),
                 ),
-              ),
-              Expanded(
-                child: Container(
+              
+              Container(
                   height: 200.0,
                   width: 200.0,
                   child: GestureDetector(
@@ -59,13 +57,12 @@ class MainScreen extends StatelessWidget {
                     child: Image.asset("images/circalthumb/p4CThumb.png")
                   ),
                 ),
-              ),
+            
                   
                 
               
               
-              Expanded(
-                child: Container(
+              Container(
                   height: 190.0,
                   width: 190.0,
                   child: GestureDetector(
@@ -78,9 +75,8 @@ class MainScreen extends StatelessWidget {
                     child: Image.asset("images/circalthumb/circalAvatar2.png")
                   ),
                 ),
-              ),
-              Expanded(
-                child: Container(
+              
+              Container(
                   height: 200.0,
                   width: 200.0,
                   child: GestureDetector(
@@ -98,12 +94,11 @@ class MainScreen extends StatelessWidget {
                     // )
                   ),
                 ),
-              ),
               
               
               
-              Expanded(
-                child: Container(
+              
+                Container(
                   height: 100.0,
                   width: 100.0,
                   child: GestureDetector(
@@ -122,12 +117,12 @@ class MainScreen extends StatelessWidget {
                     )
                   ),
                 ),
-              ),
+             
               Center(
                 child: Expanded(
                   child: const Text("When viewing videos on a mobile device use fullscreen it's much better.  All 'Up Close' picture are zoomable.", style: TextStyle(fontSize: 18)),
                 ),
-              ),
+              
             ],
           ),
       ),
