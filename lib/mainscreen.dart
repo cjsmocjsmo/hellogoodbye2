@@ -61,7 +61,7 @@ class MainScreen extends StatelessWidget {
                   width: 190.0,
                   child: GestureDetector(
                     onTap: () {
-                      js.context.callMethod('open', ["https://d4d9603e.joettevisitsvelte.pages.dev"],'_self');
+                      js.context.callMethod('open', ["https://d4d9603e.joettevisitsvelte.pages.dev",'_self']);
                       
 
 
