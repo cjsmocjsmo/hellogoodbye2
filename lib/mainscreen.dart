@@ -114,7 +114,63 @@ class MainScreen extends StatelessWidget {
                     )
                   ),
                 ),
-             
+                Container(
+                  height: 100.0,
+                  width: 100.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
+                      // );
+                    },
+                    // child: Image.asset("images/circalthumb/p4CThumb.png")
+                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                    child: CircleAvatar(
+                      backgroundColor: Colors.indigo.shade800,
+                      child: const Text('Empty', style: TextStyle(fontSize: 22)),
+                    )
+                  ),
+                ),
+                Container(
+                  height: 100.0,
+                  width: 100.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
+                      // );
+                    },
+                    // child: Image.asset("images/circalthumb/p4CThumb.png")
+                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                    child: CircleAvatar(
+                      backgroundColor: Colors.indigo.shade800,
+                      child: const Text('Empty', style: TextStyle(fontSize: 22)),
+                    )
+                  ),
+                ),
+                Container(
+                  height: 100.0,
+                  width: 100.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      // js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
+                      // );
+                    },
+                    // child: Image.asset("images/circalthumb/p4CThumb.png")
+                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
+                    child: CircleAvatar(
+                      backgroundColor: Colors.indigo.shade800,
+                      child: const Text('Empty', style: TextStyle(fontSize: 22)),
+                    )
+                  ),
+                ),
               // Center(
               //   child: Expanded(
               //     child: const Text("When viewing videos on a mobile device use fullscreen it's much better.  All 'Up Close' picture are zoomable.", style: TextStyle(fontSize: 18)),
