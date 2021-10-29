@@ -27,7 +27,7 @@ class MainScreen extends StatelessWidget {
                   width: 200.0,
                   child: GestureDetector(
                     onTap: () {
-                      js.context.callMethod('open', ['https://dc951456.dadsvelte.pages.dev','_self']);
+                      js.context.callMethod('open', ['https://dadsvelte.pages.dev','_self']);
                     },
                     child: Image.asset("images/circalthumb/d1CThumb.png")
                   ),
@@ -38,7 +38,7 @@ class MainScreen extends StatelessWidget {
                   width: 200.0,
                   child: GestureDetector(
                     onTap: () {
-                      js.context.callMethod('open', ['https://af91579b.tobisvelte.pages.dev','_self']);
+                      js.context.callMethod('open', ['https://tobisvelte.pages.dev','_self']);
                     },
                     child: Image.asset("images/circalthumb/p4CThumb2.png")
                   ),
@@ -49,7 +49,7 @@ class MainScreen extends StatelessWidget {
                   width: 190.0,
                   child: GestureDetector(
                     onTap: () {
-                      js.context.callMethod('open', ["https://d4d9603e.joettevisitsvelte.pages.dev",'_self']);
+                      js.context.callMethod('open', ["https://joettevisitsvelte.pages.dev",'_self']);
                     },
                     child: Image.asset("images/circalthumb/circalAvatar2.png")
                   ),
@@ -71,7 +71,7 @@ class MainScreen extends StatelessWidget {
                   width: 100.0,
                   child: GestureDetector(
                     onTap: () {
-                      js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
+                      js.context.callMethod('open', ['https://tripvids.pages.dev','_self']);
                     },
                     child: CircleAvatar(
                       backgroundColor: Colors.indigo.shade800,
