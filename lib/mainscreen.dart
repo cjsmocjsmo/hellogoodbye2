@@ -28,11 +28,6 @@ class MainScreen extends StatelessWidget {
                   child: GestureDetector(
                     onTap: () {
                       js.context.callMethod('open', ['https://dc951456.dadsvelte.pages.dev','_self']);
-                      
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => CDadView()),
-                      // );
                     },
                     child: Image.asset("images/circalthumb/d1CThumb.png")
                   ),
@@ -44,11 +39,6 @@ class MainScreen extends StatelessWidget {
                   child: GestureDetector(
                     onTap: () {
                       js.context.callMethod('open', ['https://af91579b.tobisvelte.pages.dev','_self']);
-                      
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => TobbyView()),
-                      // );
                     },
                     child: Image.asset("images/circalthumb/p4CThumb2.png")
                   ),
@@ -70,12 +60,8 @@ class MainScreen extends StatelessWidget {
                   width: 200.0,
                   child: GestureDetector(
                     onTap: () {
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => TexasTripView()),
-                      // );
+                      js.context.callMethod('open', ["https://texastripsvelte.pages.dev",'_self']);
                     },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
                     child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                   ),
                 ),
@@ -86,13 +72,7 @@ class MainScreen extends StatelessWidget {
                   child: GestureDetector(
                     onTap: () {
                       js.context.callMethod('open', ['https://2e1dab11.tripvids.pages.dev','_self']);
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
-                      // );
                     },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
-                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                     child: CircleAvatar(
                       backgroundColor: Colors.indigo.shade800,
                       child: const Text('Videos', style: TextStyle(fontSize: 22)),
@@ -136,19 +116,12 @@ class MainScreen extends StatelessWidget {
                       //   MaterialPageRoute(builder: (context) => YouTubePlayer2Screen()),
                       // );
                     },
-                    // child: Image.asset("images/circalthumb/p4CThumb.png")
-                    // child: Image.asset("images/circalthumb/TexasTripCThumb.png")
                     child: CircleAvatar(
                       backgroundColor: Colors.purple[300],
                       child: const Text(''),
                     )
                   ),
                 ),
-              // Center(
-              //   child: Expanded(
-              //     child: const Text("When viewing videos on a mobile device use fullscreen it's much better.  All 'Up Close' picture are zoomable.", style: TextStyle(fontSize: 18)),
-              //   ),
-              // ),
             ],
           ),
       ),
