@@ -71,7 +71,7 @@ class MainScreen extends StatelessWidget {
                   width: 100.0,
                   child: GestureDetector(
                     onTap: () {
-                      js.context.callMethod('open', ['https://tripvids.pages.dev','_self']);
+                      js.context.callMethod('open', ['https://tripvids2.pages.dev','_self']);
                     },
                     child: CircleAvatar(
                       backgroundColor: Colors.indigo.shade800,
